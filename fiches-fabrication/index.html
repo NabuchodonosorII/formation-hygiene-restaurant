@@ -1532,12 +1532,12 @@
 - Les points de maîtrise et les CCP (Points Critiques) avec leurs limites.</p>
 <h2 id="comment-lire-les-diagrammes">Comment lire les diagrammes ?<a class="headerlink" href="#comment-lire-les-diagrammes" title="Permanent link">&para;</a></h2>
 <p>Les diagrammes de fabrication permettent de visualiser rapidement le processus. Une attention particulière doit être portée aux étapes colorées :</p>
-<pre class="mermaid"><code>graph TD
+<p>graph TD
     A[Étape normale] --&gt; B;
     B{Étape de contrôle critique (CCP)} --&gt; C;
-    C[Étape finale]
-
-    style B fill:#ff9999,stroke:#333,stroke-width:2px</code></pre>
+    C[Étape finale]</p>
+<pre><code>style B fill:#ff9999,stroke:#333,stroke-width:2px
+</code></pre>
 <ul>
 <li><strong>Les boîtes blanches</strong> représentent les étapes de fabrication standards.</li>
 <li><strong>Les boîtes rouges (CCP)</strong> représentent un <strong>Point Critique de Contrôle</strong>. C'est une étape où une perte de maîtrise entraîne un risque inacceptable pour le consommateur. Elle doit être surveillée et enregistrée.</li>
