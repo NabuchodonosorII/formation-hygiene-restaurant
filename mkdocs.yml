@@ -6,6 +6,7 @@ site_description: Site de formation interne sur les bonnes pratiques d'hygiène 
 
 # Thème et fonctionnalités
 theme:
+  logo: assets/logo.png
   name: material
   features:
     - navigation.tabs

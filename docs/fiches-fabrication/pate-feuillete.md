@@ -12,10 +12,10 @@ graph TD
 
     subgraph Techniques culinaires
         B1 -- Sel, Farine, Eau --> D1(Détrempe / Boulage)
-        D1 --> D2(Repos (3°C))
+        D1 --> D2(Repos 3°C)
         D2 --> D3(Beurrage / Feuilletage)
         C1 --> D3
-        D3 --> D4(Repos (3°C))
+        D3 --> D4(Repos 3°C)
         D4 --> D5(Division / moulage)
         D5 --> D6(Congélation et maintien au froid)
         D6 --> D7(Utilisation)
