@@ -11,14 +11,14 @@ Chaque fiche détaille :
 
 Les diagrammes de fabrication permettent de visualiser rapidement le processus. Une attention particulière doit être portée aux étapes colorées :
 
-
+```mermaid
 graph TD
     A[Étape normale] --> B;
-    B{Étape de contrôle critique (CCP)} --> C;
+    B{Étape de contrôle critique CCP} --> C;
     C[Étape finale]
 
     style B fill:#ff9999,stroke:#333,stroke-width:2px
-
+```
 
 
 - **Les boîtes blanches** représentent les étapes de fabrication standards.

@@ -1,6 +1,7 @@
+``` mermaid
 graph TD
     subgraph Réception / Stockage
-        A1[Jaune d'œuf (ovoproduit)] --> B1(Froid positif)
+        A1[Jaune d'œuf ovoproduit] --> B1(Froid positif)
         A2[Beurre] --> B1
         A3[Escalope de veau] --> B1
         A4[Blanc d'œuf] --> B1
@@ -30,9 +31,10 @@ graph TD
 
     subgraph Cuisson
         E1 --> F1(Façonnage)
-        F1 --> F2(Pochage (jusqu'à flottement) / égouttage)
+        F1 --> F2(Pochage jusqu'à flottement / égouttage)
         F2 --> F3(Refroidissement)
         F3 --> F4(Maintien au froid)
     end
 
     F4 --> G1(Utilisation)
+```

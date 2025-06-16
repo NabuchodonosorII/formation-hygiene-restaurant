@@ -1,3 +1,4 @@
+``` mermaid
 graph TD
     subgraph Réception / Stockage
         A1[Plantes aromatiques] --> B1(Température ambiante)
@@ -23,10 +24,11 @@ graph TD
         B1 -- Huile, Assaisonnements --> D1(Fabrication marinade)
         C2 --> D1
         C9 --> D1
-        C7 --> D2(Marinage (<3°C, durant maximum 2 jours))
+        C7 --> D2(Marinage <3°C, durant maximum 2 jours)
         D1 --> D2
         D2 --> D3(Pressage)
         D3 --> D4(Maintien au froid)
     end
 
     D4 --> E1(Remise au client)
+```

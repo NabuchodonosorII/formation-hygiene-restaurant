@@ -1,3 +1,4 @@
+``` mermaid
 graph TD
     subgraph Réception / Stockage
         A1[Huile] --> B1(Température ambiante)
@@ -33,3 +34,4 @@ graph TD
     end
     
     F1 --> G1(Remise au client immédiate)
+```

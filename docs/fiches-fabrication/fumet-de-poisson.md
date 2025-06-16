@@ -1,3 +1,4 @@
+``` mermaid
 graph TD
     subgraph Réception / Stockage
         A1[Vin blanc, Eau] --> B1(Température ambiante)
@@ -22,10 +23,11 @@ graph TD
         C2 --> D1
         C3 --> D1
         C6 --> D1
-        D1 --> D2(Ebullition (+90°C : 20 min))
+        D1 --> D2(Ebullition +90°C : 20 min)
         B1 -- Vin blanc, Eau, Bouquet garni, Assaisonnements --> D2
         D2 --> D3(Filtrage au chinois)
         D3 --> D4(Refroidissement)
         D4 --> D5(Maintien au froid)
         D5 --> D6(Utilisation)
     end
+```

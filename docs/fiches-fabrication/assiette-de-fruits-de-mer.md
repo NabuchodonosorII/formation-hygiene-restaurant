@@ -1,6 +1,7 @@
+``` mermaid
 graph TD
     subgraph Réception / Stockage
-        A1[Eléments de décor. (algues...)] --> B1(Froid positif)
+        A1[Eléments de décor. algues...] --> B1(Froid positif)
         A2[Citrons] --> B1
         A3[Mayonnaise] --> B1
         A4[Palourdes, Praires, Huitres, fraiches] --> B1
@@ -20,22 +21,23 @@ graph TD
     end
 
     subgraph Techniques culinaires
-        C6 --> D1(Cuisson (90-100°C : 3 min))
-        B1 -- Tourteau --> D2(Cuisson (90-100°C : 15-20 min))
-        C7 --> D3(Cuisson (90-100°C : 3 min))
+        C6 --> D1(Cuisson 90-100°C : 3 min)
+        B1 -- Tourteau --> D2(Cuisson 90-100°C : 15-20 min)
+        C7 --> D3(Cuisson 90-100°C : 3 min)
         D1 --> D4(Refroidissement)
         D2 --> D4
         D3 --> D4
-        D4 --> D5(Maintien en température (< 3°C))
+        D4 --> D5(Maintien en température < 3°C)
         D5 --> D6(Découpe)
     end
 
     subgraph Assemblage
         C1 --> E1(Assemblage)
         C3 --> E1
-        B1 -- Mayonnaise "cf. fiche mayonnaise" --> E1
+        B1 -- Mayonnaise cf. fiche mayonnaise --> E1
         C5 --> E1
         D6 --> E1
     end
 
     E1 --> F1(Remise au client)
+```

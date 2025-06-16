@@ -1,3 +1,4 @@
+``` mermaid
 graph TD
     subgraph Réception / Stockage
         A1[Beurre] --> B1(Froid positif)
@@ -16,7 +17,7 @@ graph TD
         
         B2 -- Champignons --> C3(Découpe des pieds sablonneux)
         C3 --> C4(Lavage / égouttage)
-        C4 --> C5(Cuisson (90°C : 5 min))
+        C4 --> C5(Cuisson 90°C : 5 min)
 
         B2 -- Tomates --> C6(Lavage / égouttage)
         C6 --> C7(Concassage)
@@ -25,7 +26,7 @@ graph TD
     end
 
     subgraph Cuisson principale
-        C2 --> D1(Cuisson (95°C : 45 min))
+        C2 --> D1(Cuisson 95°C : 45 min)
         B1 -- "Cf. fiche fond brun de veau" --> D1
         B2 -- Vin blanc --> D1
         C7 --> D1
@@ -42,3 +43,4 @@ graph TD
     G1 --> H1(Réchauffage)
     H1 --> I1(Maintien au chaud)
     H1 --> I2(Remise au client)
+```

@@ -1,3 +1,4 @@
+``` mermaid
 graph TD
     subgraph Réception / Stockage
         A1[Purée de fruits surgelée] --> B1(Froid négatif)
@@ -15,13 +16,14 @@ graph TD
     end
     
     subgraph Techniques culinaires
-        C1 --> D1{Pasteurisation basse (65°C : 30 min) <br> ou Pasteurisation haute (82-83°C : à cœur)}
+        C1 --> D1{Pasteurisation basse 65°C : 30 min <br> ou Pasteurisation haute 82-83°C : à cœur}
         D1 --> D2(Refroidissement)
         D2 --> D3(Aromatisation)
-        D3 --> D4(Maturation (6°C : 24h ou 4°C : 48h ou 2°C : 72h))
+        D3 --> D4(Maturation 6°C : 24h ou 4°C : 48h ou 2°C : 72h)
         D4 --> D5(Glaçage - Foisonnement)
         D5 --> D6(Remplissage et conditionnement)
     end
 
-    D6 --> E1(Maintien au froid négatif (<= -18°C))
+    D6 --> E1(Maintien au froid négatif <= -18°C)
     E1 --> F1(Remise au client)
+```

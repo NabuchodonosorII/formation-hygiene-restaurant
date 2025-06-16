@@ -1,3 +1,4 @@
+``` mermaid
 graph TD
     subgraph Réception / Stockage
         A1[Gélatine] --> B1(Température ambiante)
@@ -20,7 +21,7 @@ graph TD
     end
 
     subgraph Techniques culinaires
-        B1 -- Eau --> D1(Ebullition (100°C : 2 h))
+        B1 -- Eau --> D1(Ebullition 100°C : 2 h)
         C3 --> D1
         C4 --> D1
         C5 --> D1
@@ -30,8 +31,9 @@ graph TD
         B1 -- Bouquet garni --> D3
         B2 -- Blanc d'oeuf, etc. --> D3
         A1 -- Gélatine --> D3
-        D3 --> D4(Ebullition (90°C : 20 min) / filtration chinois)
+        D3 --> D4(Ebullition 90°C : 20 min / filtration chinois)
         D4 --> D5(Refroidissement)
         D5 --> D6(Maintien au froid)
         D6 --> D7(Utilisation)
     end
+```

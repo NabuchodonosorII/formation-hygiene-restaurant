@@ -1,3 +1,4 @@
+``` mermaid
 graph TD
     subgraph Réception / Stockage
         A1[Jambon tranché] --> B1(Froid positif)
@@ -30,3 +31,4 @@ graph TD
     end
 
     E1 --> F1(Remise au client)
+```

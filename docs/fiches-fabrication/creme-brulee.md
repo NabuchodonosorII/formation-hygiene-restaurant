@@ -1,3 +1,4 @@
+``` mermaid
 graph TD
     subgraph Réception / Stockage
         A1[Œufs] --> B1(Froid positif)
@@ -19,7 +20,7 @@ graph TD
         C2 --> D2
         B1 -- Crème --> D2
         D2 --> D3(Conditionnement)
-        D3 --> D4(Cuisson (90°C : 90 min))
+        D3 --> D4(Cuisson 90°C : 90 min)
         D4 --> D5(Refroidissement)
     end
 
@@ -28,3 +29,4 @@ graph TD
         E1 --> E2(Effet chalumeau)
         E2 --> F1(Remise au client)
     end
+```

@@ -1,3 +1,4 @@
+``` mermaid
 graph TD
     subgraph Réception / Stockage
         A1[Beurre] --> B1(Froid positif)
@@ -31,3 +32,4 @@ graph TD
 
     D3 --> E1(Maintien au chaud)
     D3 --> E2(Utilisation directe)
+```

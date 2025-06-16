@@ -1,3 +1,4 @@
+``` mermaid
 graph TD
     subgraph Réception / Stockage
         A1[Beurre] --> B1(Froid positif)
@@ -22,3 +23,4 @@ graph TD
     end
     
     E1 --> F1(Remise au client)
+```

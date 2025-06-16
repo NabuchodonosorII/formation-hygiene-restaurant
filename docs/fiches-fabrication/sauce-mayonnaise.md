@@ -1,8 +1,9 @@
+``` mermaid
 graph TD
     subgraph Réception / Stockage
         A1[Vinaigre] --> B1(Température ambiante)
         A2[Huile] --> B1
-        A3[Moutarde <br> (pot non entamé)] --> B1
+        A3[Moutarde <br> pot non entamé] --> B1
         A4[Assaisonnements] --> B1
         A5[Œufs extra-frais] --> B2(Froid positif)
     end
@@ -28,3 +29,4 @@ graph TD
     E2 --> F1(Maintien au froid <br> <3 °C durant 24h maximum)
     F1 --> G1(Remise au client)
     F1 --> G2(Utilisation)
+```

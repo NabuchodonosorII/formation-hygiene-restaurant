@@ -1,3 +1,4 @@
+``` mermaid
 graph TD
     subgraph Réception / Stockage
         A1[Beurre] --> B1(Froid positif)
@@ -32,5 +33,6 @@ graph TD
         E1 --> F1(Maintien au froid)
     end
     
-    F1 --> G1(Cuisson (180°C : 10 min))
+    F1 --> G1(Cuisson 180°C : 10 min)
     G1 --> H1(Remise au client)
+```

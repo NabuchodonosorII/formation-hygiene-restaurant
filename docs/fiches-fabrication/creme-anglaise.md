@@ -1,3 +1,4 @@
+``` mermaid
 graph TD
     subgraph Réception / Stockage
         A1[Œufs] --> B1(Froid positif)
@@ -23,9 +24,10 @@ graph TD
         E1 --> E2(Mélange)
         D1 --> E2
         
-        E2 --> E3(Cuisson (85°C à coeur ou 1 min 30 minimum à 83°C à coeur))
+        E2 --> E3(Cuisson 85°C à coeur ou 1 min 30 minimum à 83°C à coeur)
         E3 --> E4(Refroidissement)
     end
 
     E4 --> F1(Maintien au froid)
     F1 --> G1(Utilisation)
+```

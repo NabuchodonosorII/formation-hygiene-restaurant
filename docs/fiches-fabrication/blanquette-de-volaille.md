@@ -1,3 +1,4 @@
+``` mermaid
 graph TD
     subgraph Réception / Stockage
         A1[Citron entier] --> B1(Froid positif)
@@ -18,7 +19,7 @@ graph TD
     end
 
     subgraph Cuisson
-        C3 --> D1(Cuisson (80°C : 1h 20 min))
+        C3 --> D1(Cuisson 80°C : 1h 20 min)
         C2 --> D1
         C5 --> D1
     end
@@ -34,3 +35,4 @@ graph TD
     G1 --> H1(Réchauffage)
     H1 --> I1(Maintien au chaud)
     H1 --> I2(Remise au client)
+```

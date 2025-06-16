@@ -1,3 +1,4 @@
+``` mermaid
 graph TD
     subgraph Réception / Stockage
         A1[Pâte feuilletée] --> B1(Froid négatif)
@@ -5,7 +6,7 @@ graph TD
         A3[Lardons] --> B2
         A4[Crème fraiche] --> B2
         A5[Œufs coquilles frais] --> B2
-        A6[Lait UHT (Non ouvert)] --> B3(Température ambiante)
+        A6[Lait UHT Non ouvert] --> B3(Température ambiante)
         A7[Assaisonnements] --> B3
     end
 
@@ -28,7 +29,7 @@ graph TD
     end
 
     subgraph Cuisson / Refroidissement
-        C2 --> E1(Cuisson (180°C : 30-45 min))
+        C2 --> E1(Cuisson 180°C : 30-45 min)
         D1 --> E1
         E1 --> E2(Refroidissement)
     end
@@ -37,3 +38,4 @@ graph TD
     F1 --> G1(Remise au client)
     F1 --> G2(Réchauffage)
     G2 --> G1
+```

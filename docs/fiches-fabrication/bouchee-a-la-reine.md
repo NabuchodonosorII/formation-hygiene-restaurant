@@ -1,3 +1,4 @@
+``` mermaid
 graph TD
     subgraph Réception / Stockage
         A1[Pâte feuilletée] --> B1(Froid négatif)
@@ -15,12 +16,12 @@ graph TD
     subgraph Mise en place
         B1 -- "cf. fiche Pâte feuilletée" --> C1(Façonnage / dorure)
         A10 --> C1
-        C1 --> C2(Cuisson (180°C : 25 min))
+        C1 --> C2(Cuisson 180°C : 25 min)
         C2 --> C3(Refroidissement)
         
-        B2 -- Quenelles "cf. fiche Quenelles de veau" --> D1
+        B2 -- Quenelles cf. fiche Quenelles de veau --> D1
         
-        B2 -- Fond brun "cf. fiche Fond brun de veau" --> D2
+        B2 -- Fond brun cf. fiche Fond brun de veau --> D2
 
         B2 -- Légumes --> C4(Epluchage)
         C4 --> C5(Lavage / Egouttage)
@@ -33,7 +34,7 @@ graph TD
         B2 -- Ris de veau --> C10(Dégorgement / égouttage)
         C10 --> C11(Blanchiment)
         C11 --> C12(Parage et Elimination peau et nerfs)
-        C12 --> C13(Cuisson (110°C : 20 min))
+        C12 --> C13(Cuisson 110°C : 20 min)
         C13 --> C14(Refroidissement)
         C14 --> C15(Découpe des ris)
     end
@@ -56,3 +57,4 @@ graph TD
     G1 --> H1(Maintien au chaud)
     G1 --> I1(Remise au client)
     C3 --> I1
+```

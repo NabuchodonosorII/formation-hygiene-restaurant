@@ -1,3 +1,4 @@
+``` mermaid
 graph TD
     subgraph Réception / Stockage
         A1[Eau, Assaisonnements] --> B1(Température ambiante)
@@ -27,7 +28,7 @@ graph TD
         C4 --> D1
         C9 --> D1
         D1 --> D2(Déglaçage)
-        D2 --> D3(Ebullition (+ de 90-100°C : 4-5h) et écumage)
+        D2 --> D3(Ebullition + de 90-100°C : 4-5h et écumage)
         B1 -- Eau, Assaisonnements --> D3
         C2 --> D3
         C11 --> D3
@@ -36,3 +37,4 @@ graph TD
         D5 --> D6(Maintien au froid)
         D6 --> D7(Utilisation)
     end
+```

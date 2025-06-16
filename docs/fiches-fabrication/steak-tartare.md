@@ -1,8 +1,9 @@
+``` mermaid
 graph TD
     subgraph Réception / Stockage
         A1[Huile] --> B1(Température ambiante)
         A2[Assaisonnement] --> B1
-        A3[Moutarde et Ketchup (pot non entamé), Tabasco] --> B1
+        A3[Moutarde et Ketchup pot non entamé, Tabasco] --> B1
         A4[Oignons] --> B1
         A5[Câpres conserve] --> B1
         A6[Plantes aromatiques, jus de citron] --> B2(Froid positif)
@@ -38,3 +39,4 @@ graph TD
         C12 --> E1
         E1 --> E2(Remise au client immédiate)
     end
+```

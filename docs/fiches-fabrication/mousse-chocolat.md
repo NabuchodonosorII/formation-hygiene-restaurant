@@ -1,3 +1,4 @@
+``` mermaid
 graph TD
     subgraph Réception / Stockage
         A1[Œufs coquille extra-frais] --> B1(Froid positif)
@@ -25,3 +26,4 @@ graph TD
 
     E3 --> F1(Maintien au froid)
     F1 --> G1(Remise au client)
+```

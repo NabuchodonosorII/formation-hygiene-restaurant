@@ -1,3 +1,4 @@
+``` mermaid
 graph TD
     subgraph Réception / Stockage
         A1[Alcool, Assaisonnement] --> B1(Température ambiante)
@@ -11,9 +12,10 @@ graph TD
     subgraph Techniques culinaires
         C1 --> D1(Mélange)
         A1 --> D1
-        D1 --> D2(Maintien en température (< 3°C))
+        D1 --> D2(Maintien en température < 3°C)
         D2 --> D3(Assemblage)
         D3 --> D4(Cuisson en terrine)
         D4 --> D5(Pressage)
         D5 --> D6(Refroidissement)
     end
+```

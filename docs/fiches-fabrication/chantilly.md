@@ -1,6 +1,7 @@
+``` mermaid
 graph TD
     subgraph Réception / Stockage
-        A1[Crème fraiche liquide (+30% M.G.)] --> B1(Froid positif)
+        A1[Crème fraiche liquide +30% M.G.] --> B1(Froid positif)
         A2[Gousses de vanille] --> B2(Température ambiante)
         A3[Sucre] --> B2
     end
@@ -18,3 +19,4 @@ graph TD
     end
 
     D3 --> E1(Utilisation)
+```

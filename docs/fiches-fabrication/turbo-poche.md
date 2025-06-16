@@ -1,3 +1,4 @@
+``` mermaid
 graph TD
     subgraph Réception / Stockage
         A1[Sauce hollandaise] --> B1(Froid positif)
@@ -19,7 +20,7 @@ graph TD
     end
 
     subgraph Cuisson
-        C8 --> D1(Ebullition (80°C : 15 min))
+        C8 --> D1(Ebullition 80°C : 15 min)
         B2 -- Assaisonnement, eau --> D1
         C4 --> D1
         D1 --> D2(Egouttage)
@@ -32,3 +33,4 @@ graph TD
     end
 
     E1 --> F1(Remise au client immédiate)
+```

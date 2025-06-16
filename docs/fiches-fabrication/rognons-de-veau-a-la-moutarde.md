@@ -1,6 +1,7 @@
+``` mermaid
 graph TD
     subgraph Réception / Stockage
-        A1[Moutarde (pot entamé)] --> B1(Froid positif)
+        A1[Moutarde pot entamé] --> B1(Froid positif)
         A2[Crème fraiche] --> B1
         A3[Beurre] --> B1
         A4[Rognons de veau frais] --> B1
@@ -27,3 +28,4 @@ graph TD
     end
     
     D5 --> E1(Remise au client)
+```
