@@ -1478,36 +1478,36 @@
 
   <h1>Sauce mayonnaise</h1>
 
-<p>graph TD
+<pre class="mermaid"><code>graph TD
     subgraph Réception / Stockage
         A1[Vinaigre] --&gt; B1(Température ambiante)
         A2[Huile] --&gt; B1
-        A3[Moutarde <br> (pot non entamé)] --&gt; B1
+        A3[Moutarde &lt;br&gt; pot non entamé] --&gt; B1
         A4[Assaisonnements] --&gt; B1
         A5[Œufs extra-frais] --&gt; B2(Froid positif)
-    end</p>
-<pre><code>subgraph Mise en place
-    B2 --&gt; C1(Cassage)
-    C1 --&gt; C2(Clarification)
-    C2 --&gt; C3(Réservation des jaunes)
-end
+    end
 
-subgraph Assemblage
-    B1 -- Moutarde, Assaisonnements --&gt; D1(Mélange)
-    C3 --&gt; D1
-end
+    subgraph Mise en place
+        B2 --&gt; C1(Cassage)
+        C1 --&gt; C2(Clarification)
+        C2 --&gt; C3(Réservation des jaunes)
+    end
 
-subgraph Techniques culinaires
-    D1 --&gt; E1(Début d'émulsion)
-    B1 -- Huile --&gt; E1
-    E1 --&gt; E2(Emulsion finale)
-    B1 -- Vinaigre --&gt; E2
-end
+    subgraph Assemblage
+        B1 -- Moutarde, Assaisonnements --&gt; D1(Mélange)
+        C3 --&gt; D1
+    end
 
-E2 --&gt; F1(Maintien au froid &lt;br&gt; &lt;3 °C durant 24h maximum)
-F1 --&gt; G1(Remise au client)
-F1 --&gt; G2(Utilisation)
-</code></pre>
+    subgraph Techniques culinaires
+        D1 --&gt; E1(Début d'émulsion)
+        B1 -- Huile --&gt; E1
+        E1 --&gt; E2(Emulsion finale)
+        B1 -- Vinaigre --&gt; E2
+    end
+
+    E2 --&gt; F1(Maintien au froid &lt;br&gt; &lt;3 °C durant 24h maximum)
+    F1 --&gt; G1(Remise au client)
+    F1 --&gt; G2(Utilisation)</code></pre>
 
 
 

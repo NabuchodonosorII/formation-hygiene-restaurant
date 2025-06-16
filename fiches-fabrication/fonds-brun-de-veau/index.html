@@ -1478,44 +1478,44 @@
 
   <h1>Fonds brun de veau</h1>
 
-<p>graph TD
+<pre class="mermaid"><code>graph TD
     subgraph Réception / Stockage
         A1[Eau, Assaisonnements] --&gt; B1(Température ambiante)
         A2[Plantes aromatiques] --&gt; B1
         A3[Oignons frais] --&gt; B2(Froid positif)
-        A4[Os, crosse, jarrets, pieds, <br> morceaux de 2e et 3e <br> catégories de veau] --&gt; B2
+        A4[Os, crosse, jarrets, pieds, &lt;br&gt; morceaux de 2e et 3e &lt;br&gt; catégories de veau] --&gt; B2
         A5[Carottes, poireaux frais] --&gt; B2
         A6[Tomates fraiches] --&gt; B2
-    end</p>
-<pre><code>subgraph Mise en place
-    B1 -- Plantes aromatiques --&gt; C1(Lavage / égouttage)
-    C1 --&gt; C2(Fabrication bouquet garni)
-    B2 -- Oignons frais --&gt; C3(Epluchage)
-    C3 --&gt; C4(Découpe)
-    B2 -- Os, etc. --&gt; C5(Parage)
-    C5 --&gt; C6(Concassage)
-    B2 -- Carottes, poireaux --&gt; C7(Epluchage)
-    C7 --&gt; C8(Lavage / égouttage)
-    C8 --&gt; C9(Découpe)
-    B2 -- Tomates fraiches --&gt; C10(Lavage / égouttage)
-    C10 --&gt; C11(Découpe)
-end
+    end
 
-subgraph Techniques culinaires
-    C6 --&gt; D1(Rissolage)
-    C4 --&gt; D1
-    C9 --&gt; D1
-    D1 --&gt; D2(Déglaçage)
-    D2 --&gt; D3(Ebullition (+ de 90-100°C : 4-5h) et écumage)
-    B1 -- Eau, Assaisonnements --&gt; D3
-    C2 --&gt; D3
-    C11 --&gt; D3
-    D3 --&gt; D4(Filtrage au chinois)
-    D4 --&gt; D5(Refroidissement et dégraissage)
-    D5 --&gt; D6(Maintien au froid)
-    D6 --&gt; D7(Utilisation)
-end
-</code></pre>
+    subgraph Mise en place
+        B1 -- Plantes aromatiques --&gt; C1(Lavage / égouttage)
+        C1 --&gt; C2(Fabrication bouquet garni)
+        B2 -- Oignons frais --&gt; C3(Epluchage)
+        C3 --&gt; C4(Découpe)
+        B2 -- Os, etc. --&gt; C5(Parage)
+        C5 --&gt; C6(Concassage)
+        B2 -- Carottes, poireaux --&gt; C7(Epluchage)
+        C7 --&gt; C8(Lavage / égouttage)
+        C8 --&gt; C9(Découpe)
+        B2 -- Tomates fraiches --&gt; C10(Lavage / égouttage)
+        C10 --&gt; C11(Découpe)
+    end
+
+    subgraph Techniques culinaires
+        C6 --&gt; D1(Rissolage)
+        C4 --&gt; D1
+        C9 --&gt; D1
+        D1 --&gt; D2(Déglaçage)
+        D2 --&gt; D3(Ebullition + de 90-100°C : 4-5h et écumage)
+        B1 -- Eau, Assaisonnements --&gt; D3
+        C2 --&gt; D3
+        C11 --&gt; D3
+        D3 --&gt; D4(Filtrage au chinois)
+        D4 --&gt; D5(Refroidissement et dégraissage)
+        D5 --&gt; D6(Maintien au froid)
+        D6 --&gt; D7(Utilisation)
+    end</code></pre>
 
 
 

@@ -1478,7 +1478,7 @@
 
   <h1>Bouchée à la reine</h1>
 
-<p>graph TD
+<pre class="mermaid"><code>graph TD
     subgraph Réception / Stockage
         A1[Pâte feuilletée] --&gt; B1(Froid négatif)
         A2[Quenelles] --&gt; B2(Froid positif)
@@ -1490,52 +1490,52 @@
         A8[Farine] --&gt; B3
         A9[Beurre, Crème fraiche] --&gt; B2
         A10[Jaune d'œuf en brique] --&gt; B2
-    end</p>
-<pre><code>subgraph Mise en place
-    B1 -- "cf. fiche Pâte feuilletée" --&gt; C1(Façonnage / dorure)
-    A10 --&gt; C1
-    C1 --&gt; C2(Cuisson (180°C : 25 min))
-    C2 --&gt; C3(Refroidissement)
+    end
 
-    B2 -- Quenelles "cf. fiche Quenelles de veau" --&gt; D1
+    subgraph Mise en place
+        B1 -- "cf. fiche Pâte feuilletée" --&gt; C1(Façonnage / dorure)
+        A10 --&gt; C1
+        C1 --&gt; C2(Cuisson 180°C : 25 min)
+        C2 --&gt; C3(Refroidissement)
 
-    B2 -- Fond brun "cf. fiche Fond brun de veau" --&gt; D2
+        B2 -- Quenelles cf. fiche Quenelles de veau --&gt; D1
 
-    B2 -- Légumes --&gt; C4(Epluchage)
-    C4 --&gt; C5(Lavage / Egouttage)
-    C5 --&gt; C6(Découpe)
+        B2 -- Fond brun cf. fiche Fond brun de veau --&gt; D2
 
-    B2 -- Champignons --&gt; C7(Découpe des pieds terreux)
-    C7 --&gt; C8(Lavage / Egouttage)
-    C8 --&gt; C9(Découpe)
+        B2 -- Légumes --&gt; C4(Epluchage)
+        C4 --&gt; C5(Lavage / Egouttage)
+        C5 --&gt; C6(Découpe)
 
-    B2 -- Ris de veau --&gt; C10(Dégorgement / égouttage)
-    C10 --&gt; C11(Blanchiment)
-    C11 --&gt; C12(Parage et Elimination peau et nerfs)
-    C12 --&gt; C13(Cuisson (110°C : 20 min))
-    C13 --&gt; C14(Refroidissement)
-    C14 --&gt; C15(Découpe des ris)
-end
+        B2 -- Champignons --&gt; C7(Découpe des pieds terreux)
+        C7 --&gt; C8(Lavage / Egouttage)
+        C8 --&gt; C9(Découpe)
 
-subgraph Sauce
-    B3 -- Vin, Farine --&gt; E1(Fabrication de la sauce : Mélange / Cuisson)
-    B2 -- Beurre, Crème fraiche --&gt; E1
-    D2 --&gt; E1
-end
+        B2 -- Ris de veau --&gt; C10(Dégorgement / égouttage)
+        C10 --&gt; C11(Blanchiment)
+        C11 --&gt; C12(Parage et Elimination peau et nerfs)
+        C12 --&gt; C13(Cuisson 110°C : 20 min)
+        C13 --&gt; C14(Refroidissement)
+        C14 --&gt; C15(Découpe des ris)
+    end
 
-subgraph Assemblage
-    E1 --&gt; F1(Assemblage)
-    D1 --&gt; F1
-    C6 --&gt; F1
-    C9 --&gt; F1
-    C15 --&gt; F1
-end
+    subgraph Sauce
+        B3 -- Vin, Farine --&gt; E1(Fabrication de la sauce : Mélange / Cuisson)
+        B2 -- Beurre, Crème fraiche --&gt; E1
+        D2 --&gt; E1
+    end
 
-F1 --&gt; G1(Réchauffage)
-G1 --&gt; H1(Maintien au chaud)
-G1 --&gt; I1(Remise au client)
-C3 --&gt; I1
-</code></pre>
+    subgraph Assemblage
+        E1 --&gt; F1(Assemblage)
+        D1 --&gt; F1
+        C6 --&gt; F1
+        C9 --&gt; F1
+        C15 --&gt; F1
+    end
+
+    F1 --&gt; G1(Réchauffage)
+    G1 --&gt; H1(Maintien au chaud)
+    G1 --&gt; I1(Remise au client)
+    C3 --&gt; I1</code></pre>
 
 
 

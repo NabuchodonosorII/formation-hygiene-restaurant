@@ -1478,40 +1478,40 @@
 
   <h1>Turbot poché</h1>
 
-<p>graph TD
+<pre class="mermaid"><code>graph TD
     subgraph Réception / Stockage
         A1[Sauce hollandaise] --&gt; B1(Froid positif)
         A2[Citron entier] --&gt; B1
         A3[Lait frais] --&gt; B1
         A4[Turbot entier] --&gt; B1
         A5[Assaisonnement, eau] --&gt; B2(Température ambiante)
-    end</p>
-<pre><code>subgraph Mise en place
-    B1 -- Citron --&gt; C1(Lavage)
-    C1 --&gt; C2(Tranchage)
-    B1 -- Lait --&gt; C3(Ebullition)
-    C3 --&gt; C4(Refroidissement)
-    B1 -- Turbot --&gt; C5(Rinçage)
-    C5 --&gt; C6(Habillage)
-    C6 --&gt; C7(Lavage / égouttage)
-    C7 --&gt; C8(Découpe)
-end
+    end
 
-subgraph Cuisson
-    C8 --&gt; D1(Ebullition (80°C : 15 min))
-    B2 -- Assaisonnement, eau --&gt; D1
-    C4 --&gt; D1
-    D1 --&gt; D2(Egouttage)
-end
+    subgraph Mise en place
+        B1 -- Citron --&gt; C1(Lavage)
+        C1 --&gt; C2(Tranchage)
+        B1 -- Lait --&gt; C3(Ebullition)
+        C3 --&gt; C4(Refroidissement)
+        B1 -- Turbot --&gt; C5(Rinçage)
+        C5 --&gt; C6(Habillage)
+        C6 --&gt; C7(Lavage / égouttage)
+        C7 --&gt; C8(Découpe)
+    end
 
-subgraph Assemblage
-    D2 --&gt; E1(Assemblage)
-    B1 -- Sauce hollandaise --&gt; E1
-    C2 --&gt; E1
-end
+    subgraph Cuisson
+        C8 --&gt; D1(Ebullition 80°C : 15 min)
+        B2 -- Assaisonnement, eau --&gt; D1
+        C4 --&gt; D1
+        D1 --&gt; D2(Egouttage)
+    end
 
-E1 --&gt; F1(Remise au client immédiate)
-</code></pre>
+    subgraph Assemblage
+        D2 --&gt; E1(Assemblage)
+        B1 -- Sauce hollandaise --&gt; E1
+        C2 --&gt; E1
+    end
+
+    E1 --&gt; F1(Remise au client immédiate)</code></pre>
 
 
 

@@ -1478,7 +1478,7 @@
 
   <h1>Escargots farcis</h1>
 
-<p>graph TD
+<pre class="mermaid"><code>graph TD
     subgraph Réception / Stockage
         A1[Beurre] --&gt; B1(Froid positif)
         A2[Persil] --&gt; B2(Température ambiante)
@@ -1486,34 +1486,34 @@
         A4[Ail, Echalotes] --&gt; B2
         A5[Coquilles d'escargots] --&gt; B2
         A6[Escargots en conserve] --&gt; B2
-    end</p>
-<pre><code>subgraph Mise en place
-    B1 -- Beurre --&gt; C1(Découpe)
-    B2 -- Persil --&gt; C2(Lavage / égouttage)
-    C2 --&gt; C3(Hachage)
-    B2 -- Ail, Echalotes --&gt; C4(Epluchage)
-    C4 --&gt; C5(Découpe)
-    B2 -- Coquilles --&gt; C6(Lavage / égouttage)
-    B2 -- Escargots --&gt; C7(Déconditionnement)
-end
+    end
 
-subgraph Beurre d'escargot
-    C1 --&gt; D1(Mélange)
-    C3 --&gt; D1
-    C5 --&gt; D1
-    B2 -- Assaisonnement --&gt; D1
-end
+    subgraph Mise en place
+        B1 -- Beurre --&gt; C1(Découpe)
+        B2 -- Persil --&gt; C2(Lavage / égouttage)
+        C2 --&gt; C3(Hachage)
+        B2 -- Ail, Echalotes --&gt; C4(Epluchage)
+        C4 --&gt; C5(Découpe)
+        B2 -- Coquilles --&gt; C6(Lavage / égouttage)
+        B2 -- Escargots --&gt; C7(Déconditionnement)
+    end
 
-subgraph Assemblage
-    D1 --&gt; E1(Assemblage)
-    C6 --&gt; E1
-    C7 --&gt; E1
-    E1 --&gt; F1(Maintien au froid)
-end
+    subgraph Beurre d'escargot
+        C1 --&gt; D1(Mélange)
+        C3 --&gt; D1
+        C5 --&gt; D1
+        B2 -- Assaisonnement --&gt; D1
+    end
 
-F1 --&gt; G1(Cuisson (180°C : 10 min))
-G1 --&gt; H1(Remise au client)
-</code></pre>
+    subgraph Assemblage
+        D1 --&gt; E1(Assemblage)
+        C6 --&gt; E1
+        C7 --&gt; E1
+        E1 --&gt; F1(Maintien au froid)
+    end
+
+    F1 --&gt; G1(Cuisson 180°C : 10 min)
+    G1 --&gt; H1(Remise au client)</code></pre>
 
 
 

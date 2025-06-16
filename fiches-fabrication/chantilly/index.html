@@ -1478,26 +1478,26 @@
 
   <h1>Chantilly</h1>
 
-<p>graph TD
+<pre class="mermaid"><code>graph TD
     subgraph Réception / Stockage
-        A1[Crème fraiche liquide (+30% M.G.)] --&gt; B1(Froid positif)
+        A1[Crème fraiche liquide +30% M.G.] --&gt; B1(Froid positif)
         A2[Gousses de vanille] --&gt; B2(Température ambiante)
         A3[Sucre] --&gt; B2
-    end</p>
-<pre><code>subgraph Mise en place
-    B2 -- Vanille --&gt; C1(Extraction des graines)
-end
+    end
 
-subgraph Techniques culinaires
-    B1 --&gt; D1(Mélange)
-    C1 --&gt; D1
-    B2 -- Sucre --&gt; D1
-    D1 --&gt; D2(Incorporation dans le siphon)
-    D2 --&gt; D3(Maintien au froid)
-end
+    subgraph Mise en place
+        B2 -- Vanille --&gt; C1(Extraction des graines)
+    end
 
-D3 --&gt; E1(Utilisation)
-</code></pre>
+    subgraph Techniques culinaires
+        B1 --&gt; D1(Mélange)
+        C1 --&gt; D1
+        B2 -- Sucre --&gt; D1
+        D1 --&gt; D2(Incorporation dans le siphon)
+        D2 --&gt; D3(Maintien au froid)
+    end
+
+    D3 --&gt; E1(Utilisation)</code></pre>
 
 
 

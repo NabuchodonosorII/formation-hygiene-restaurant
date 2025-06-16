@@ -1478,7 +1478,7 @@
 
   <h1>Sauce béarnaise</h1>
 
-<p>graph TD
+<pre class="mermaid"><code>graph TD
     subgraph Réception / Stockage
         A1[Beurre] --&gt; B1(Froid positif)
         A2[Œufs coquilles EXTRA FRAIS] --&gt; B1
@@ -1486,31 +1486,31 @@
         A4[Plantes aromatiques] --&gt; B2
         A5[Assaisonnement] --&gt; B2
         A6[Vin, vinaigre] --&gt; B2
-    end</p>
-<pre><code>subgraph Mise en place
-    B1 -- Beurre --&gt; C1(Clarification)
-    B1 -- Œufs --&gt; C2(Cassage)
-    C2 --&gt; C3(Clarification)
-    C3 --&gt; C4(Réservation des jaunes)
-    B2 -- Echalotes --&gt; C5(Epluchage)
-    C5 --&gt; C6(Hachage)
-    B2 -- Plantes aromatiques --&gt; C7(Lavage/égouttage)
-    C7 --&gt; C8(Hachage)
-end
+    end
 
-subgraph Techniques culinaires
-    B2 -- Assaisonnement, Vin, vinaigre --&gt; D1(Réduction)
-    C6 --&gt; D1
-    C8 --&gt; D1
-    D1 --&gt; D2(Refroidissement)
-    D2 --&gt; D3(Cuisson à basse température)
-    C4 --&gt; D3
-    C1 --&gt; D3
-end
+    subgraph Mise en place
+        B1 -- Beurre --&gt; C1(Clarification)
+        B1 -- Œufs --&gt; C2(Cassage)
+        C2 --&gt; C3(Clarification)
+        C3 --&gt; C4(Réservation des jaunes)
+        B2 -- Echalotes --&gt; C5(Epluchage)
+        C5 --&gt; C6(Hachage)
+        B2 -- Plantes aromatiques --&gt; C7(Lavage/égouttage)
+        C7 --&gt; C8(Hachage)
+    end
 
-D3 --&gt; E1(Maintien au chaud)
-D3 --&gt; E2(Utilisation directe)
-</code></pre>
+    subgraph Techniques culinaires
+        B2 -- Assaisonnement, Vin, vinaigre --&gt; D1(Réduction)
+        C6 --&gt; D1
+        C8 --&gt; D1
+        D1 --&gt; D2(Refroidissement)
+        D2 --&gt; D3(Cuisson à basse température)
+        C4 --&gt; D3
+        C1 --&gt; D3
+    end
+
+    D3 --&gt; E1(Maintien au chaud)
+    D3 --&gt; E2(Utilisation directe)</code></pre>
 
 
 

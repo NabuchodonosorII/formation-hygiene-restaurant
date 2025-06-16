@@ -1478,7 +1478,7 @@
 
   <h1>Galette œuf jambon fromage</h1>
 
-<p>graph TD
+<pre class="mermaid"><code>graph TD
     subgraph Réception / Stockage
         A1[Jambon tranché] --&gt; B1(Froid positif)
         A2[Fromage râpé] --&gt; B1
@@ -1487,29 +1487,29 @@
         A5[Eau] --&gt; B2
         A6[Farine de Sarrazin] --&gt; B2
         A7[Huile] --&gt; B2
-    end</p>
-<pre><code>subgraph Pâte à galette
-    B2 -- Sel, Eau, Farine --&gt; C1(Mélange)
-    C1 --&gt; C2(Cuisson)
-    B2 -- Huile --&gt; C2
-    C2 --&gt; C3(Refroidissement)
-    C3 --&gt; C4(Maintien au froid éventuel)
-end
+    end
 
-subgraph Assemblage
-    C4 --&gt; D1(Assemblage)
-    B1 -- Jambon --&gt; D1
-    B1 -- Fromage râpé --&gt; D1
-    B1 -- Œufs --&gt; D2(Cassage)
-    D2 --&gt; D1
-end
+    subgraph Pâte à galette
+        B2 -- Sel, Eau, Farine --&gt; C1(Mélange)
+        C1 --&gt; C2(Cuisson)
+        B2 -- Huile --&gt; C2
+        C2 --&gt; C3(Refroidissement)
+        C3 --&gt; C4(Maintien au froid éventuel)
+    end
 
-subgraph Finition
-    D1 --&gt; E1(Cuisson / réchauffage)
-end
+    subgraph Assemblage
+        C4 --&gt; D1(Assemblage)
+        B1 -- Jambon --&gt; D1
+        B1 -- Fromage râpé --&gt; D1
+        B1 -- Œufs --&gt; D2(Cassage)
+        D2 --&gt; D1
+    end
 
-E1 --&gt; F1(Remise au client)
-</code></pre>
+    subgraph Finition
+        D1 --&gt; E1(Cuisson / réchauffage)
+    end
+
+    E1 --&gt; F1(Remise au client)</code></pre>
 
 
 

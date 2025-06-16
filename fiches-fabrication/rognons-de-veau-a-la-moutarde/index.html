@@ -1478,35 +1478,35 @@
 
   <h1>Rognons de veau à la moutarde</h1>
 
-<p>graph TD
+<pre class="mermaid"><code>graph TD
     subgraph Réception / Stockage
-        A1[Moutarde (pot entamé)] --&gt; B1(Froid positif)
+        A1[Moutarde pot entamé] --&gt; B1(Froid positif)
         A2[Crème fraiche] --&gt; B1
         A3[Beurre] --&gt; B1
         A4[Rognons de veau frais] --&gt; B1
         A5[Assaisonnement] --&gt; B2(Température ambiante)
         A6[Vin] --&gt; B2
         A7[Huile] --&gt; B2
-    end</p>
-<pre><code>subgraph Mise en place
-    B1 -- Rognons --&gt; C1(Lavage)
-    C1 --&gt; C2(Dégraissage)
-end
+    end
 
-subgraph Techniques culinaires
-    C2 --&gt; D1(Rissolage)
-    B2 -- Huile --&gt; D1
-    D1 --&gt; D2(Egouttage)
-    D2 --&gt; D3(Déglaçage)
-    B2 -- Vin --&gt; D3
-    D3 --&gt; D4(Mélange)
-    B1 -- Moutarde, Crème fraiche, Beurre --&gt; D4
-    B2 -- Assaisonnement --&gt; D4
-    D4 --&gt; D5(Cuisson)
-end
+    subgraph Mise en place
+        B1 -- Rognons --&gt; C1(Lavage)
+        C1 --&gt; C2(Dégraissage)
+    end
 
-D5 --&gt; E1(Remise au client)
-</code></pre>
+    subgraph Techniques culinaires
+        C2 --&gt; D1(Rissolage)
+        B2 -- Huile --&gt; D1
+        D1 --&gt; D2(Egouttage)
+        D2 --&gt; D3(Déglaçage)
+        B2 -- Vin --&gt; D3
+        D3 --&gt; D4(Mélange)
+        B1 -- Moutarde, Crème fraiche, Beurre --&gt; D4
+        B2 -- Assaisonnement --&gt; D4
+        D4 --&gt; D5(Cuisson)
+    end
+
+    D5 --&gt; E1(Remise au client)</code></pre>
 
 
 

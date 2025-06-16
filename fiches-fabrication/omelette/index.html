@@ -1478,30 +1478,30 @@
 
   <h1>Omelette</h1>
 
-<p>graph TD
+<pre class="mermaid"><code>graph TD
     subgraph Réception / Stockage
         A1[Beurre] --&gt; B1(Froid positif)
         A2[Œufs coquilles] --&gt; B1
         A3[Lait entamé] --&gt; B1
         A4[Assaisonnements] --&gt; B2(Température ambiante)
-    end</p>
-<pre><code>subgraph Mise en place
-    B1 -- Œufs --&gt; C1(Cassage)
-end
+    end
 
-subgraph Assemblage
-    C1 --&gt; D1(Mélange)
-    B1 -- Lait --&gt; D1
-    B2 -- Assaisonnements --&gt; D1
-end
+    subgraph Mise en place
+        B1 -- Œufs --&gt; C1(Cassage)
+    end
 
-subgraph Cuisson
-    D1 --&gt; E1(Cuisson)
-    B1 -- Beurre --&gt; E1
-end
+    subgraph Assemblage
+        C1 --&gt; D1(Mélange)
+        B1 -- Lait --&gt; D1
+        B2 -- Assaisonnements --&gt; D1
+    end
 
-E1 --&gt; F1(Remise au client)
-</code></pre>
+    subgraph Cuisson
+        D1 --&gt; E1(Cuisson)
+        B1 -- Beurre --&gt; E1
+    end
+
+    E1 --&gt; F1(Remise au client)</code></pre>
 
 
 

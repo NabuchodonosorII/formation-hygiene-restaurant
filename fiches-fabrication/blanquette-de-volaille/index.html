@@ -1478,7 +1478,7 @@
 
   <h1>Blanquette de volaille</h1>
 
-<p>graph TD
+<pre class="mermaid"><code>graph TD
     subgraph Réception / Stockage
         A1[Citron entier] --&gt; B1(Froid positif)
         A2[Escalopes de volaille] --&gt; B1
@@ -1487,33 +1487,33 @@
         A5[Crème fraiche] --&gt; B1
         A6[Farine] --&gt; B2(Température ambiante)
         A7[Fond de volaille, Assaisonnement] --&gt; B2
-    end</p>
-<pre><code>subgraph Mise en place
-    B1 -- Citron --&gt; C1(Lavage)
-    C1 --&gt; C2(Pressage)
-    B1 -- Escalopes --&gt; C3(Découpe)
-    B1 -- Champignons --&gt; C4(Lavage / Egouttage)
-    C4 --&gt; C5(Découpe)
-end
+    end
 
-subgraph Cuisson
-    C3 --&gt; D1(Cuisson (80°C : 1h 20 min))
-    C2 --&gt; D1
-    C5 --&gt; D1
-end
+    subgraph Mise en place
+        B1 -- Citron --&gt; C1(Lavage)
+        C1 --&gt; C2(Pressage)
+        B1 -- Escalopes --&gt; C3(Découpe)
+        B1 -- Champignons --&gt; C4(Lavage / Egouttage)
+        C4 --&gt; C5(Découpe)
+    end
 
-subgraph Liaison
-    D1 --&gt; E1(Mélange)
-    B1 -- Beurre, Crème fraiche --&gt; E1
-    B2 -- Farine, Fond de volaille, Assaisonnement --&gt; E1
-end
+    subgraph Cuisson
+        C3 --&gt; D1(Cuisson 80°C : 1h 20 min)
+        C2 --&gt; D1
+        C5 --&gt; D1
+    end
 
-E1 --&gt; F1(Refroidissement)
-F1 --&gt; G1(Maintien au froid)
-G1 --&gt; H1(Réchauffage)
-H1 --&gt; I1(Maintien au chaud)
-H1 --&gt; I2(Remise au client)
-</code></pre>
+    subgraph Liaison
+        D1 --&gt; E1(Mélange)
+        B1 -- Beurre, Crème fraiche --&gt; E1
+        B2 -- Farine, Fond de volaille, Assaisonnement --&gt; E1
+    end
+
+    E1 --&gt; F1(Refroidissement)
+    F1 --&gt; G1(Maintien au froid)
+    G1 --&gt; H1(Réchauffage)
+    H1 --&gt; I1(Maintien au chaud)
+    H1 --&gt; I2(Remise au client)</code></pre>
 
 
 

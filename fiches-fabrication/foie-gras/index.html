@@ -1478,25 +1478,25 @@
 
   <h1>Foie gras</h1>
 
-<p>graph TD
+<pre class="mermaid"><code>graph TD
     subgraph Réception / Stockage
         A1[Alcool, Assaisonnement] --&gt; B1(Température ambiante)
         A2[Foie gras entier frais] --&gt; B2(Froid positif)
-    end</p>
-<pre><code>subgraph Mise en place
-    B2 --&gt; C1(Dénerbage)
-end
+    end
 
-subgraph Techniques culinaires
-    C1 --&gt; D1(Mélange)
-    A1 --&gt; D1
-    D1 --&gt; D2(Maintien en température (&lt; 3°C))
-    D2 --&gt; D3(Assemblage)
-    D3 --&gt; D4(Cuisson en terrine)
-    D4 --&gt; D5(Pressage)
-    D5 --&gt; D6(Refroidissement)
-end
-</code></pre>
+    subgraph Mise en place
+        B2 --&gt; C1(Dénerbage)
+    end
+
+    subgraph Techniques culinaires
+        C1 --&gt; D1(Mélange)
+        A1 --&gt; D1
+        D1 --&gt; D2(Maintien en température &lt; 3°C)
+        D2 --&gt; D3(Assemblage)
+        D3 --&gt; D4(Cuisson en terrine)
+        D4 --&gt; D5(Pressage)
+        D5 --&gt; D6(Refroidissement)
+    end</code></pre>
 
 
 

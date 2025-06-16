@@ -1478,46 +1478,46 @@
 
   <h1>Steak tartare</h1>
 
-<p>graph TD
+<pre class="mermaid"><code>graph TD
     subgraph Réception / Stockage
         A1[Huile] --&gt; B1(Température ambiante)
         A2[Assaisonnement] --&gt; B1
-        A3[Moutarde et Ketchup (pot non entamé), Tabasco] --&gt; B1
+        A3[Moutarde et Ketchup pot non entamé, Tabasco] --&gt; B1
         A4[Oignons] --&gt; B1
         A5[Câpres conserve] --&gt; B1
         A6[Plantes aromatiques, jus de citron] --&gt; B2(Froid positif)
         A7[Œufs coquilles extra-frais] --&gt; B2
         A8[Viande de bœuf] --&gt; B2
-    end</p>
-<pre><code>subgraph Mise en place
-    B1 -- Oignons --&gt; C1(Epluchage)
-    C1 --&gt; C2(Découpe)
-    B1 -- Câpres --&gt; C3(Déconditionnement)
-    C3 --&gt; C4(Egouttage)
-    B2 -- Plantes aromatiques --&gt; C5(Lavage/égouttage)
-    C5 --&gt; C6(Hachage)
-    B2 -- Œufs --&gt; C7(Cassage)
-    C7 --&gt; C8(Clarification)
-    C8 --&gt; C9(Réservation des jaunes)
-    B2 -- Viande --&gt; C10(Parage)
-    C10 --&gt; C11(Découpe)
-    C11 --&gt; C12(Hachage)
-end
+    end
 
-subgraph Assemblage
-    B1 -- Huile, Assaisonnement, Moutarde, etc. --&gt; D1(Mélange)
-    C2 --&gt; D1
-    C4 --&gt; D1
-    C6 --&gt; D1
-end
+    subgraph Mise en place
+        B1 -- Oignons --&gt; C1(Epluchage)
+        C1 --&gt; C2(Découpe)
+        B1 -- Câpres --&gt; C3(Déconditionnement)
+        C3 --&gt; C4(Egouttage)
+        B2 -- Plantes aromatiques --&gt; C5(Lavage/égouttage)
+        C5 --&gt; C6(Hachage)
+        B2 -- Œufs --&gt; C7(Cassage)
+        C7 --&gt; C8(Clarification)
+        C8 --&gt; C9(Réservation des jaunes)
+        B2 -- Viande --&gt; C10(Parage)
+        C10 --&gt; C11(Découpe)
+        C11 --&gt; C12(Hachage)
+    end
 
-subgraph Façonnage / Remise au client
-    D1 --&gt; E1(Façonnage)
-    C9 --&gt; E1
-    C12 --&gt; E1
-    E1 --&gt; E2(Remise au client immédiate)
-end
-</code></pre>
+    subgraph Assemblage
+        B1 -- Huile, Assaisonnement, Moutarde, etc. --&gt; D1(Mélange)
+        C2 --&gt; D1
+        C4 --&gt; D1
+        C6 --&gt; D1
+    end
+
+    subgraph Façonnage / Remise au client
+        D1 --&gt; E1(Façonnage)
+        C9 --&gt; E1
+        C12 --&gt; E1
+        E1 --&gt; E2(Remise au client immédiate)
+    end</code></pre>
 
 
 

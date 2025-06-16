@@ -1478,45 +1478,45 @@
 
   <h1>Quiche lorraine</h1>
 
-<p>graph TD
+<pre class="mermaid"><code>graph TD
     subgraph Réception / Stockage
         A1[Pâte feuilletée] --&gt; B1(Froid négatif)
         A2[Emmental râpé en sachet] --&gt; B2(Froid positif)
         A3[Lardons] --&gt; B2
         A4[Crème fraiche] --&gt; B2
         A5[Œufs coquilles frais] --&gt; B2
-        A6[Lait UHT (Non ouvert)] --&gt; B3(Température ambiante)
+        A6[Lait UHT Non ouvert] --&gt; B3(Température ambiante)
         A7[Assaisonnements] --&gt; B3
-    end</p>
-<pre><code>subgraph Mise en place
-    B1 -- "cf. fiche pâte feuilletée" --&gt; C1(Décongélation)
-    C1 --&gt; C2(Façonnage)
-    B2 -- Lardons --&gt; C3(Cuisson)
-    B2 -- Œufs --&gt; C4(Cassage)
-end
-
-subgraph Assemblage
-    B2 -- Emmental --&gt; D1(Garnissage)
-    C3 --&gt; D1
-    subgraph Appareil
-        C4 -- Œufs --&gt; D2(Mélange)
-        B2 -- Crème fraiche --&gt; D2
-        B3 -- Lait, Assaisonnements --&gt; D2
     end
-    D2 --&gt; D1
-end
 
-subgraph Cuisson / Refroidissement
-    C2 --&gt; E1(Cuisson (180°C : 30-45 min))
-    D1 --&gt; E1
-    E1 --&gt; E2(Refroidissement)
-end
+    subgraph Mise en place
+        B1 -- "cf. fiche pâte feuilletée" --&gt; C1(Décongélation)
+        C1 --&gt; C2(Façonnage)
+        B2 -- Lardons --&gt; C3(Cuisson)
+        B2 -- Œufs --&gt; C4(Cassage)
+    end
 
-E2 --&gt; F1(Maintien au froid)
-F1 --&gt; G1(Remise au client)
-F1 --&gt; G2(Réchauffage)
-G2 --&gt; G1
-</code></pre>
+    subgraph Assemblage
+        B2 -- Emmental --&gt; D1(Garnissage)
+        C3 --&gt; D1
+        subgraph Appareil
+            C4 -- Œufs --&gt; D2(Mélange)
+            B2 -- Crème fraiche --&gt; D2
+            B3 -- Lait, Assaisonnements --&gt; D2
+        end
+        D2 --&gt; D1
+    end
+
+    subgraph Cuisson / Refroidissement
+        C2 --&gt; E1(Cuisson 180°C : 30-45 min)
+        D1 --&gt; E1
+        E1 --&gt; E2(Refroidissement)
+    end
+
+    E2 --&gt; F1(Maintien au froid)
+    F1 --&gt; G1(Remise au client)
+    F1 --&gt; G2(Réchauffage)
+    G2 --&gt; G1</code></pre>
 
 
 

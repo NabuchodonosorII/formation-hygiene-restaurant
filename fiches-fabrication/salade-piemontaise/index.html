@@ -1478,43 +1478,43 @@
 
   <h1>Salade piémontaise</h1>
 
-<p>graph TD
+<pre class="mermaid"><code>graph TD
     subgraph Réception / Stockage
         A1[Mayonnaise] --&gt; B1(Froid positif)
         A2[Tomates fraiches] --&gt; B1
         A3[Œufs coquilles frais] --&gt; B1
         A4[Jambon entier] --&gt; B1
-        A5[Cornichons (pot non entamé)] --&gt; B2(Température ambiante)
+        A5[Cornichons pot non entamé] --&gt; B2(Température ambiante)
         A6[Pommes de terre] --&gt; B2
         A7[Assaisonnement] --&gt; B2
-    end</p>
-<pre><code>subgraph Mise en place
-    B1 -- Tomates fraiches --&gt; C1(Lavage)
-    C1 --&gt; C2(Découpe)
-    B1 -- Œufs --&gt; C3(Cuisson (90-100°C : 10 min))
-    C3 --&gt; C4(Refroidissement)
-    C4 --&gt; C5(Ecalage / Découpe)
-    B1 -- Jambon entier --&gt; C6(Découpe)
-    B2 -- Cornichons --&gt; C7(Déconditionnement)
-    C7 --&gt; C8(Egouttage / Découpe)
-    B2 -- Pommes de terre --&gt; C9(Lavage)
-    C9 --&gt; C10(Cuisson (90-100°C : 30-45 min))
-    C10 --&gt; C11(Refroidissement)
-    C11 --&gt; C12(Epluchage / Découpe)
-end
+    end
 
-subgraph Assemblage
-    A1 -- "cf. fiche Mayonnaise" --&gt; D1(Assemblage)
-    C2 --&gt; D1
-    C5 --&gt; D1
-    C6 --&gt; D1
-    C8 --&gt; D1
-    C12 --&gt; D1
-    B2 -- Assaisonnement --&gt; D1
-end
+    subgraph Mise en place
+        B1 -- Tomates fraiches --&gt; C1(Lavage)
+        C1 --&gt; C2(Découpe)
+        B1 -- Œufs --&gt; C3(Cuisson 90-100°C : 10 min)
+        C3 --&gt; C4(Refroidissement)
+        C4 --&gt; C5(Ecalage / Découpe)
+        B1 -- Jambon entier --&gt; C6(Découpe)
+        B2 -- Cornichons --&gt; C7(Déconditionnement)
+        C7 --&gt; C8(Egouttage / Découpe)
+        B2 -- Pommes de terre --&gt; C9(Lavage)
+        C9 --&gt; C10(Cuisson 90-100°C : 30-45 min)
+        C10 --&gt; C11(Refroidissement)
+        C11 --&gt; C12(Epluchage / Découpe)
+    end
 
-D1 --&gt; E1(Remise au client)
-</code></pre>
+    subgraph Assemblage
+        A1 -- "cf. fiche Mayonnaise" --&gt; D1(Assemblage)
+        C2 --&gt; D1
+        C5 --&gt; D1
+        C6 --&gt; D1
+        C8 --&gt; D1
+        C12 --&gt; D1
+        B2 -- Assaisonnement --&gt; D1
+    end
+
+    D1 --&gt; E1(Remise au client)</code></pre>
 
 
 

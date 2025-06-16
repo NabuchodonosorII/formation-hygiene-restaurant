@@ -1478,37 +1478,37 @@
 
   <h1>Crème anglaise</h1>
 
-<p>graph TD
+<pre class="mermaid"><code>graph TD
     subgraph Réception / Stockage
         A1[Œufs] --&gt; B1(Froid positif)
         A2[Sucre] --&gt; B2(Température ambiante)
         A3[Lait] --&gt; B2
         A4[Gousses de vanille] --&gt; B2
-    end</p>
-<pre><code>subgraph Mise en place
-    B1 -- Oeufs --&gt; C1(Cassage)
-    C1 --&gt; C2(Clarification)
-    C2 --&gt; C3(Réservation des jaunes)
-    C3 --&gt; D1(Blanchiment)
-    B2 -- Sucre --&gt; D1
+    end
 
-    B2 -- Vanille --&gt; C4(Extraction des graines)
-end
+    subgraph Mise en place
+        B1 -- Oeufs --&gt; C1(Cassage)
+        C1 --&gt; C2(Clarification)
+        C2 --&gt; C3(Réservation des jaunes)
+        C3 --&gt; D1(Blanchiment)
+        B2 -- Sucre --&gt; D1
 
-subgraph Assemblage et Cuisson
-    B2 -- Lait --&gt; E1(Ebullition)
-    C4 --&gt; E1
+        B2 -- Vanille --&gt; C4(Extraction des graines)
+    end
 
-    E1 --&gt; E2(Mélange)
-    D1 --&gt; E2
+    subgraph Assemblage et Cuisson
+        B2 -- Lait --&gt; E1(Ebullition)
+        C4 --&gt; E1
 
-    E2 --&gt; E3(Cuisson (85°C à coeur ou 1 min 30 minimum à 83°C à coeur))
-    E3 --&gt; E4(Refroidissement)
-end
+        E1 --&gt; E2(Mélange)
+        D1 --&gt; E2
 
-E4 --&gt; F1(Maintien au froid)
-F1 --&gt; G1(Utilisation)
-</code></pre>
+        E2 --&gt; E3(Cuisson 85°C à coeur ou 1 min 30 minimum à 83°C à coeur)
+        E3 --&gt; E4(Refroidissement)
+    end
+
+    E4 --&gt; F1(Maintien au froid)
+    F1 --&gt; G1(Utilisation)</code></pre>
 
 
 

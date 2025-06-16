@@ -1478,7 +1478,7 @@
 
   <h1>Fumet de poisson</h1>
 
-<p>graph TD
+<pre class="mermaid"><code>graph TD
     subgraph Réception / Stockage
         A1[Vin blanc, Eau] --&gt; B1(Température ambiante)
         A2[Bouquet garni, Assaisonnements] --&gt; B1
@@ -1486,29 +1486,29 @@
         A4[Arêtes et têtes de poissons] --&gt; B2(Froid positif)
         A5[Carottes, poireaux, frais] --&gt; B2
         A6[Beurre] --&gt; B2
-    end</p>
-<pre><code>subgraph Mise en place
-    B1 -- Echalotes, Oignons --&gt; C1(Epluchage)
-    C1 --&gt; C2(Découpe)
-    B2 -- Arêtes et têtes --&gt; C3(Concassage)
-    B2 -- Carottes, poireaux --&gt; C4(Epluchage)
-    C4 --&gt; C5(Lavage/égouttage)
-    C5 --&gt; C6(Découpe)
-end
+    end
 
-subgraph Techniques culinaires
-    B2 -- Beurre --&gt; D1(Faire suer)
-    C2 --&gt; D1
-    C3 --&gt; D1
-    C6 --&gt; D1
-    D1 --&gt; D2(Ebullition (+90°C : 20 min))
-    B1 -- Vin blanc, Eau, Bouquet garni, Assaisonnements --&gt; D2
-    D2 --&gt; D3(Filtrage au chinois)
-    D3 --&gt; D4(Refroidissement)
-    D4 --&gt; D5(Maintien au froid)
-    D5 --&gt; D6(Utilisation)
-end
-</code></pre>
+    subgraph Mise en place
+        B1 -- Echalotes, Oignons --&gt; C1(Epluchage)
+        C1 --&gt; C2(Découpe)
+        B2 -- Arêtes et têtes --&gt; C3(Concassage)
+        B2 -- Carottes, poireaux --&gt; C4(Epluchage)
+        C4 --&gt; C5(Lavage/égouttage)
+        C5 --&gt; C6(Découpe)
+    end
+
+    subgraph Techniques culinaires
+        B2 -- Beurre --&gt; D1(Faire suer)
+        C2 --&gt; D1
+        C3 --&gt; D1
+        C6 --&gt; D1
+        D1 --&gt; D2(Ebullition +90°C : 20 min)
+        B1 -- Vin blanc, Eau, Bouquet garni, Assaisonnements --&gt; D2
+        D2 --&gt; D3(Filtrage au chinois)
+        D3 --&gt; D4(Refroidissement)
+        D4 --&gt; D5(Maintien au froid)
+        D5 --&gt; D6(Utilisation)
+    end</code></pre>
 
 
 

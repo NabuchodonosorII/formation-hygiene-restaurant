@@ -1478,36 +1478,36 @@
 
   <h1>Crème brûlée</h1>
 
-<p>graph TD
+<pre class="mermaid"><code>graph TD
     subgraph Réception / Stockage
         A1[Œufs] --&gt; B1(Froid positif)
         A2[Crème] --&gt; B1
         A3[Gousses de vanille] --&gt; B2(Température ambiante)
         A4[Lait] --&gt; B2
-    end</p>
-<pre><code>subgraph Mise en place
-    B1 -- Oeufs --&gt; C1(Cassage)
-    C1 --&gt; C2(Séparation des jaunes)
-    B2 -- Vanille --&gt; C3(Extraction des graines)
-end
+    end
 
-subgraph Assemblage et Cuisson
-    B2 -- Lait --&gt; D1(Ebullition)
-    C3 --&gt; D1
-    D1 --&gt; D2(Mélange)
-    C2 --&gt; D2
-    B1 -- Crème --&gt; D2
-    D2 --&gt; D3(Conditionnement)
-    D3 --&gt; D4(Cuisson (90°C : 90 min))
-    D4 --&gt; D5(Refroidissement)
-end
+    subgraph Mise en place
+        B1 -- Oeufs --&gt; C1(Cassage)
+        C1 --&gt; C2(Séparation des jaunes)
+        B2 -- Vanille --&gt; C3(Extraction des graines)
+    end
 
-subgraph Finition
-    D5 --&gt; E1(Maintien au froid)
-    E1 --&gt; E2(Effet chalumeau)
-    E2 --&gt; F1(Remise au client)
-end
-</code></pre>
+    subgraph Assemblage et Cuisson
+        B2 -- Lait --&gt; D1(Ebullition)
+        C3 --&gt; D1
+        D1 --&gt; D2(Mélange)
+        C2 --&gt; D2
+        B1 -- Crème --&gt; D2
+        D2 --&gt; D3(Conditionnement)
+        D3 --&gt; D4(Cuisson 90°C : 90 min)
+        D4 --&gt; D5(Refroidissement)
+    end
+
+    subgraph Finition
+        D5 --&gt; E1(Maintien au froid)
+        E1 --&gt; E2(Effet chalumeau)
+        E2 --&gt; F1(Remise au client)
+    end</code></pre>
 
 
 

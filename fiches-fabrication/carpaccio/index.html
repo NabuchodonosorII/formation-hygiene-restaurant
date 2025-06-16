@@ -1478,41 +1478,41 @@
 
   <h1>Carpaccio</h1>
 
-<p>graph TD
+<pre class="mermaid"><code>graph TD
     subgraph Réception / Stockage
         A1[Huile] --&gt; B1(Température ambiante)
         A2[Assaisonnements] --&gt; B1
         A3[Citron] --&gt; B2(Froid positif)
         A4[Poivrons] --&gt; B2
         A5[Filet ou rond de gîte de bœuf frais] --&gt; B2
-    end</p>
-<pre><code>subgraph Mise en place
-    B2 -- Citron --&gt; C1(Lavage/égouttage)
-    C1 --&gt; C2(Découpe)
-    B2 -- Poivrons --&gt; C3(Lavage/égouttage)
-    C3 --&gt; C4(Elimination des pédoncules et graines)
-    C4 --&gt; C5(Tranchage fin)
-    B2 -- Filet de boeuf --&gt; C6(Parage)
-    C6 --&gt; C7(Portionnement)
-end
+    end
 
-subgraph Techniques culinaires
-    B1 -- Huile, Assaisonnements --&gt; D1(Fabrication marinade)
-    C2 --&gt; D1
-end
+    subgraph Mise en place
+        B2 -- Citron --&gt; C1(Lavage/égouttage)
+        C1 --&gt; C2(Découpe)
+        B2 -- Poivrons --&gt; C3(Lavage/égouttage)
+        C3 --&gt; C4(Elimination des pédoncules et graines)
+        C4 --&gt; C5(Tranchage fin)
+        B2 -- Filet de boeuf --&gt; C6(Parage)
+        C6 --&gt; C7(Portionnement)
+    end
 
-subgraph Assemblage
-    D1 --&gt; E1(Assemblage)
-    C5 --&gt; E1
-end
+    subgraph Techniques culinaires
+        B1 -- Huile, Assaisonnements --&gt; D1(Fabrication marinade)
+        C2 --&gt; D1
+    end
 
-subgraph Dressage
-    C7 --&gt; F1(Dressage)
-    E1 --&gt; F1
-end
+    subgraph Assemblage
+        D1 --&gt; E1(Assemblage)
+        C5 --&gt; E1
+    end
 
-F1 --&gt; G1(Remise au client immédiate)
-</code></pre>
+    subgraph Dressage
+        C7 --&gt; F1(Dressage)
+        E1 --&gt; F1
+    end
+
+    F1 --&gt; G1(Remise au client immédiate)</code></pre>
 
 
 

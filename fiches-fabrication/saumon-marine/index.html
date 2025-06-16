@@ -1478,38 +1478,38 @@
 
   <h1>Saumon mariné</h1>
 
-<p>graph TD
+<pre class="mermaid"><code>graph TD
     subgraph Réception / Stockage
         A1[Plantes aromatiques] --&gt; B1(Température ambiante)
         A2[Huile] --&gt; B1
         A3[Assaisonnements] --&gt; B1
         A4[Saumon frais entier habillé] --&gt; B2(Froid positif)
         A5[Citron entier] --&gt; B2
-    end</p>
-<pre><code>subgraph Mise en place
-    B1 -- Plantes aromatiques --&gt; C1(Lavage / Egouttage)
-    C1 --&gt; C2(Découpe)
-    B2 -- Saumon --&gt; C3(Filetage)
-    C3 --&gt; C4(Désarêtage)
-    C4 --&gt; C5(Pelage / parage)
-    C5 --&gt; C6(Rinçage / Essuyage)
-    C6 --&gt; C7(Tranchage)
-    B2 -- Citron --&gt; C8(Lavage)
-    C8 --&gt; C9(Découpe)
-end
+    end
 
-subgraph Techniques culinaires
-    B1 -- Huile, Assaisonnements --&gt; D1(Fabrication marinade)
-    C2 --&gt; D1
-    C9 --&gt; D1
-    C7 --&gt; D2(Marinage (&lt;3°C, durant maximum 2 jours))
-    D1 --&gt; D2
-    D2 --&gt; D3(Pressage)
-    D3 --&gt; D4(Maintien au froid)
-end
+    subgraph Mise en place
+        B1 -- Plantes aromatiques --&gt; C1(Lavage / Egouttage)
+        C1 --&gt; C2(Découpe)
+        B2 -- Saumon --&gt; C3(Filetage)
+        C3 --&gt; C4(Désarêtage)
+        C4 --&gt; C5(Pelage / parage)
+        C5 --&gt; C6(Rinçage / Essuyage)
+        C6 --&gt; C7(Tranchage)
+        B2 -- Citron --&gt; C8(Lavage)
+        C8 --&gt; C9(Découpe)
+    end
 
-D4 --&gt; E1(Remise au client)
-</code></pre>
+    subgraph Techniques culinaires
+        B1 -- Huile, Assaisonnements --&gt; D1(Fabrication marinade)
+        C2 --&gt; D1
+        C9 --&gt; D1
+        C7 --&gt; D2(Marinage &lt;3°C, durant maximum 2 jours)
+        D1 --&gt; D2
+        D2 --&gt; D3(Pressage)
+        D3 --&gt; D4(Maintien au froid)
+    end
+
+    D4 --&gt; E1(Remise au client)</code></pre>
 
 
 

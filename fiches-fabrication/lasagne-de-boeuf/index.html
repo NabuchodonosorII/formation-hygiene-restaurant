@@ -1478,7 +1478,7 @@
 
   <h1>Lasagnes de bœuf</h1>
 
-<p>graph TD
+<pre class="mermaid"><code>graph TD
     subgraph Réception / Stockage
         A1[Viande égrenée surgelée] --&gt; B1(Froid négatif)
         A2[Fromage râpé] --&gt; B2(Froid positif)
@@ -1486,40 +1486,40 @@
         A4[Farine] --&gt; B3(Température ambiante)
         A5[Lait] --&gt; B3
         A6[Lasagnes] --&gt; B3
-        A7[Coulis de tomate (conserve)] --&gt; B3
+        A7[Coulis de tomate conserve] --&gt; B3
         A8[Assaisonnement] --&gt; B3
         A9[Ail, oignon] --&gt; B3
-    end</p>
-<pre><code>subgraph Mise en place
-    B1 -- Viande --&gt; C1(Cuisson (90°C : 10 min))
-    B3 -- Ail, oignon --&gt; C2(Epluchage)
-    C2 --&gt; C3(Hachage)
-    C1 --&gt; C4(Assemblage)
-    C3 --&gt; C4
-    B3 -- Coulis de tomate --&gt; C5(Déconditionnement)
-    C5 --&gt; C4
-    B3 -- Assaisonnement --&gt; C4
-end
+    end
 
-subgraph Béchamel
-    B3 -- Lait, Farine --&gt; D1(Fabrication béchamel : Cuisson (90°C : 6 min))
-    B2 -- Beurre --&gt; D1
-    B2 -- Fromage râpé --&gt; D1
-end
+    subgraph Mise en place
+        B1 -- Viande --&gt; C1(Cuisson 90°C : 10 min)
+        B3 -- Ail, oignon --&gt; C2(Epluchage)
+        C2 --&gt; C3(Hachage)
+        C1 --&gt; C4(Assemblage)
+        C3 --&gt; C4
+        B3 -- Coulis de tomate --&gt; C5(Déconditionnement)
+        C5 --&gt; C4
+        B3 -- Assaisonnement --&gt; C4
+    end
 
-subgraph Montage / Cuisson
-    C4 --&gt; E1(Montage en température)
-    D1 --&gt; E1
-    B3 -- Lasagnes --&gt; E1
-    E1 --&gt; E2(Remise en température / Cuisson)
-end
+    subgraph Béchamel
+        B3 -- Lait, Farine --&gt; D1(Fabrication béchamel : Cuisson 90°C : 6 min)
+        B2 -- Beurre --&gt; D1
+        B2 -- Fromage râpé --&gt; D1
+    end
 
-E2 --&gt; F1(Refroidissement)
-F1 --&gt; G1(Maintien au froid)
-G1 --&gt; H1(Réchauffage)
-H1 --&gt; I1(Maintien au chaud)
-H1 --&gt; I2(Remise au client)
-</code></pre>
+    subgraph Montage / Cuisson
+        C4 --&gt; E1(Montage en température)
+        D1 --&gt; E1
+        B3 -- Lasagnes --&gt; E1
+        E1 --&gt; E2(Remise en température / Cuisson)
+    end
+
+    E2 --&gt; F1(Refroidissement)
+    F1 --&gt; G1(Maintien au froid)
+    G1 --&gt; H1(Réchauffage)
+    H1 --&gt; I1(Maintien au chaud)
+    H1 --&gt; I2(Remise au client)</code></pre>
 
 
 

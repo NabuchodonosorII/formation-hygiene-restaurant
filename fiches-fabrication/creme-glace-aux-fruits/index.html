@@ -1478,7 +1478,7 @@
 
   <h1>Crème glacée aux fruits</h1>
 
-<p>graph TD
+<pre class="mermaid"><code>graph TD
     subgraph Réception / Stockage
         A1[Purée de fruits surgelée] --&gt; B1(Froid négatif)
         A2[Jaune d'œuf en brique] --&gt; B2(Froid positif)
@@ -1486,25 +1486,25 @@
         A4[Sucre] --&gt; B3(Température ambiante)
         A5[Lait] --&gt; B3
         A6[Additifs alimentaires] --&gt; B3
-    end</p>
-<pre><code>subgraph Assemblage
-    B1 --&gt; C1(Mélange)
-    B2 -- Jaune d'oeuf, Crème fraiche --&gt; C1
-    B3 -- Sucre, Lait, Additifs --&gt; C1
-end
+    end
 
-subgraph Techniques culinaires
-    C1 --&gt; D1{Pasteurisation basse (65°C : 30 min) &lt;br&gt; ou Pasteurisation haute (82-83°C : à cœur)}
-    D1 --&gt; D2(Refroidissement)
-    D2 --&gt; D3(Aromatisation)
-    D3 --&gt; D4(Maturation (6°C : 24h ou 4°C : 48h ou 2°C : 72h))
-    D4 --&gt; D5(Glaçage - Foisonnement)
-    D5 --&gt; D6(Remplissage et conditionnement)
-end
+    subgraph Assemblage
+        B1 --&gt; C1(Mélange)
+        B2 -- Jaune d'oeuf, Crème fraiche --&gt; C1
+        B3 -- Sucre, Lait, Additifs --&gt; C1
+    end
 
-D6 --&gt; E1(Maintien au froid négatif (&lt;= -18°C))
-E1 --&gt; F1(Remise au client)
-</code></pre>
+    subgraph Techniques culinaires
+        C1 --&gt; D1{Pasteurisation basse 65°C : 30 min &lt;br&gt; ou Pasteurisation haute 82-83°C : à cœur}
+        D1 --&gt; D2(Refroidissement)
+        D2 --&gt; D3(Aromatisation)
+        D3 --&gt; D4(Maturation 6°C : 24h ou 4°C : 48h ou 2°C : 72h)
+        D4 --&gt; D5(Glaçage - Foisonnement)
+        D5 --&gt; D6(Remplissage et conditionnement)
+    end
+
+    D6 --&gt; E1(Maintien au froid négatif &lt;= -18°C)
+    E1 --&gt; F1(Remise au client)</code></pre>
 
 
 

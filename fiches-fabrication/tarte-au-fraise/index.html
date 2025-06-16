@@ -1478,54 +1478,54 @@
 
   <h1>Tarte aux fraises</h1>
 
-<p>graph TD
+<pre class="mermaid"><code>graph TD
     subgraph Réception / Stockage
         A1[Pâte brisée] --&gt; B1(Froid positif)
         A2[Fraises] --&gt; B1
         A3[Œufs coquilles] --&gt; B1
         A4[Sucre] --&gt; B2(Température ambiante)
         A5[Gousse de vanille] --&gt; B2
-        A6[Lait UHT (non entamé)] --&gt; B2
+        A6[Lait UHT non entamé] --&gt; B2
         A7[Farine] --&gt; B2
-    end</p>
-<pre><code>subgraph Crème pâtissière
-    B2 -- Vanille --&gt; C1(Extraction des graines)
-    B2 -- Lait --&gt; C2(Ebullition)
-    C1 --&gt; C2
+    end
 
-    B1 -- Oeufs --&gt; C3(Cassage)
-    C3 --&gt; C4(Clarification)
-    C4 --&gt; C5(Réservation des jaunes)
-    C5 --&gt; C6(Blanchiment)
-    B2 -- Sucre --&gt; C6
+    subgraph Crème pâtissière
+        B2 -- Vanille --&gt; C1(Extraction des graines)
+        B2 -- Lait --&gt; C2(Ebullition)
+        C1 --&gt; C2
 
-    C2 --&gt; C7(Mélange (crème pâtissière))
-    C6 --&gt; C7
-    B2 -- Farine --&gt; C7
-    C7 --&gt; C8(Cuisson (100°C : 2 min))
-    C8 --&gt; C9(Refroidissement)
-end
+        B1 -- Oeufs --&gt; C3(Cassage)
+        C3 --&gt; C4(Clarification)
+        C4 --&gt; C5(Réservation des jaunes)
+        C5 --&gt; C6(Blanchiment)
+        B2 -- Sucre --&gt; C6
 
-subgraph Fond de tarte
-    B1 -- Pâte "cf. fiche pâte feuilletée" --&gt; D1(Façonnage)
-    D1 --&gt; D2(Cuisson (100°C : 25 min))
-    D2 --&gt; D3(Refroidissement)
-end
+        C2 --&gt; C7(Mélange crème pâtissière)
+        C6 --&gt; C7
+        B2 -- Farine --&gt; C7
+        C7 --&gt; C8(Cuisson 100°C : 2 min)
+        C8 --&gt; C9(Refroidissement)
+    end
 
-subgraph Mise en place Fraises
-    B1 -- Fraises --&gt; E1(Lavage / égouttage)
-    E1 --&gt; E2(Découpe)
-end
+    subgraph Fond de tarte
+        B1 -- Pâte cf. fiche pâte feuilletée --&gt; D1(Façonnage)
+        D1 --&gt; D2(Cuisson 100°C : 25 min)
+        D2 --&gt; D3(Refroidissement)
+    end
 
-subgraph Assemblage
-    C9 --&gt; F1(Assemblage)
-    D3 --&gt; F1
-    E2 --&gt; F1
-end
+    subgraph Mise en place Fraises
+        B1 -- Fraises --&gt; E1(Lavage / égouttage)
+        E1 --&gt; E2(Découpe)
+    end
 
-F1 --&gt; G1(Maintien au froid)
-G1 --&gt; H1(Remise au client)
-</code></pre>
+    subgraph Assemblage
+        C9 --&gt; F1(Assemblage)
+        D3 --&gt; F1
+        E2 --&gt; F1
+    end
+
+    F1 --&gt; G1(Maintien au froid)
+    G1 --&gt; H1(Remise au client)</code></pre>
 
 
 

@@ -1478,7 +1478,7 @@
 
   <h1>Sauté de veau marengo</h1>
 
-<p>graph TD
+<pre class="mermaid"><code>graph TD
     subgraph Réception / Stockage
         A1[Beurre] --&gt; B1(Froid positif)
         A2[Viande de veau fraiche] --&gt; B1
@@ -1487,41 +1487,41 @@
         A5[Tomates] --&gt; B2
         A6[Oignons, ail] --&gt; B2
         A7[Vin blanc] --&gt; B2
-    end</p>
-<pre><code>subgraph Mise en place
-    B1 -- Viande --&gt; C1(Parage)
-    C1 --&gt; C2(Rissolage)
-    B1 -- Beurre --&gt; C2
+    end
 
-    B2 -- Champignons --&gt; C3(Découpe des pieds sablonneux)
-    C3 --&gt; C4(Lavage / égouttage)
-    C4 --&gt; C5(Cuisson (90°C : 5 min))
+    subgraph Mise en place
+        B1 -- Viande --&gt; C1(Parage)
+        C1 --&gt; C2(Rissolage)
+        B1 -- Beurre --&gt; C2
 
-    B2 -- Tomates --&gt; C6(Lavage / égouttage)
-    C6 --&gt; C7(Concassage)
-    B2 -- Oignons, ail --&gt; C8(Epluchage)
-    C8 --&gt; C9(Hachage)
-end
+        B2 -- Champignons --&gt; C3(Découpe des pieds sablonneux)
+        C3 --&gt; C4(Lavage / égouttage)
+        C4 --&gt; C5(Cuisson 90°C : 5 min)
 
-subgraph Cuisson principale
-    C2 --&gt; D1(Cuisson (95°C : 45 min))
-    B1 -- "Cf. fiche fond brun de veau" --&gt; D1
-    B2 -- Vin blanc --&gt; D1
-    C7 --&gt; D1
-    C9 --&gt; D1
-end
+        B2 -- Tomates --&gt; C6(Lavage / égouttage)
+        C6 --&gt; C7(Concassage)
+        B2 -- Oignons, ail --&gt; C8(Epluchage)
+        C8 --&gt; C9(Hachage)
+    end
 
-subgraph Assemblage
-    D1 --&gt; E1(Assemblage)
-    C5 --&gt; E1
-end
+    subgraph Cuisson principale
+        C2 --&gt; D1(Cuisson 95°C : 45 min)
+        B1 -- "Cf. fiche fond brun de veau" --&gt; D1
+        B2 -- Vin blanc --&gt; D1
+        C7 --&gt; D1
+        C9 --&gt; D1
+    end
 
-E1 --&gt; F1(Refroidissement)
-F1 --&gt; G1(Maintien au froid)
-G1 --&gt; H1(Réchauffage)
-H1 --&gt; I1(Maintien au chaud)
-H1 --&gt; I2(Remise au client)
-</code></pre>
+    subgraph Assemblage
+        D1 --&gt; E1(Assemblage)
+        C5 --&gt; E1
+    end
+
+    E1 --&gt; F1(Refroidissement)
+    F1 --&gt; G1(Maintien au froid)
+    G1 --&gt; H1(Réchauffage)
+    H1 --&gt; I1(Maintien au chaud)
+    H1 --&gt; I2(Remise au client)</code></pre>
 
 
 

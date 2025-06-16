@@ -1478,33 +1478,33 @@
 
   <h1>Mousse au chocolat</h1>
 
-<p>graph TD
+<pre class="mermaid"><code>graph TD
     subgraph Réception / Stockage
         A1[Œufs coquille extra-frais] --&gt; B1(Froid positif)
         A2[Sucre] --&gt; B2(Température ambiante)
         A3[Chocolat] --&gt; B2
-    end</p>
-<pre><code>subgraph Mise en place
-    B1 -- Oeufs --&gt; C1(Cassage)
-    C1 --&gt; C2(Clarification)
-    C2 --&gt; C3(Réservation des blancs d'œufs)
-    C3 --&gt; D1(Monter à la neige)
+    end
 
-    B2 -- Chocolat --&gt; C4(Cassage)
-    C4 --&gt; D2(Fusion au bain marie)
-end
+    subgraph Mise en place
+        B1 -- Oeufs --&gt; C1(Cassage)
+        C1 --&gt; C2(Clarification)
+        C2 --&gt; C3(Réservation des blancs d'œufs)
+        C3 --&gt; D1(Monter à la neige)
 
-subgraph Techniques culinaires
-    D2 --&gt; E1(Mélange)
-    B2 -- Sucre --&gt; E1
-    E1 --&gt; E2(Incorporation des blancs)
-    D1 --&gt; E2
-    E2 --&gt; E3(Refroidissement)
-end
+        B2 -- Chocolat --&gt; C4(Cassage)
+        C4 --&gt; D2(Fusion au bain marie)
+    end
 
-E3 --&gt; F1(Maintien au froid)
-F1 --&gt; G1(Remise au client)
-</code></pre>
+    subgraph Techniques culinaires
+        D2 --&gt; E1(Mélange)
+        B2 -- Sucre --&gt; E1
+        E1 --&gt; E2(Incorporation des blancs)
+        D1 --&gt; E2
+        E2 --&gt; E3(Refroidissement)
+    end
+
+    E3 --&gt; F1(Maintien au froid)
+    F1 --&gt; G1(Remise au client)</code></pre>
 
 
 

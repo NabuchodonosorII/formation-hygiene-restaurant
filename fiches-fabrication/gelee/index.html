@@ -1478,7 +1478,7 @@
 
   <h1>Gelée</h1>
 
-<p>graph TD
+<pre class="mermaid"><code>graph TD
     subgraph Réception / Stockage
         A1[Gélatine] --&gt; B1(Température ambiante)
         A2[Eau] --&gt; B1
@@ -1488,33 +1488,33 @@
         A6[Os cassés] --&gt; B2
         A7[Pieds de veau] --&gt; B2
         A8[Blanc d'œuf en bric, maigre de bœuf haché] --&gt; B2
-    end</p>
-<pre><code>subgraph Mise en place
-    B1 -- Carottes, etc. --&gt; C1(Epluchage)
-    C1 --&gt; C2(Lavage/égouttage)
-    C2 --&gt; C3(Découpe)
-    B2 -- Gîte et jarret --&gt; C4(Parage)
-    B2 -- Os cassés --&gt; C5(Dégorger / Egouttage)
-    B2 -- Pieds de veau --&gt; C6(Parage / lavage)
-end
+    end
 
-subgraph Techniques culinaires
-    B1 -- Eau --&gt; D1(Ebullition (100°C : 2 h))
-    C3 --&gt; D1
-    C4 --&gt; D1
-    C5 --&gt; D1
-    C6 --&gt; D1
-    D1 --&gt; D2(Ecumage / Dégraissage)
-    D2 --&gt; D3(Mélange)
-    B1 -- Bouquet garni --&gt; D3
-    B2 -- Blanc d'oeuf, etc. --&gt; D3
-    A1 -- Gélatine --&gt; D3
-    D3 --&gt; D4(Ebullition (90°C : 20 min) / filtration chinois)
-    D4 --&gt; D5(Refroidissement)
-    D5 --&gt; D6(Maintien au froid)
-    D6 --&gt; D7(Utilisation)
-end
-</code></pre>
+    subgraph Mise en place
+        B1 -- Carottes, etc. --&gt; C1(Epluchage)
+        C1 --&gt; C2(Lavage/égouttage)
+        C2 --&gt; C3(Découpe)
+        B2 -- Gîte et jarret --&gt; C4(Parage)
+        B2 -- Os cassés --&gt; C5(Dégorger / Egouttage)
+        B2 -- Pieds de veau --&gt; C6(Parage / lavage)
+    end
+
+    subgraph Techniques culinaires
+        B1 -- Eau --&gt; D1(Ebullition 100°C : 2 h)
+        C3 --&gt; D1
+        C4 --&gt; D1
+        C5 --&gt; D1
+        C6 --&gt; D1
+        D1 --&gt; D2(Ecumage / Dégraissage)
+        D2 --&gt; D3(Mélange)
+        B1 -- Bouquet garni --&gt; D3
+        B2 -- Blanc d'oeuf, etc. --&gt; D3
+        A1 -- Gélatine --&gt; D3
+        D3 --&gt; D4(Ebullition 90°C : 20 min / filtration chinois)
+        D4 --&gt; D5(Refroidissement)
+        D5 --&gt; D6(Maintien au froid)
+        D6 --&gt; D7(Utilisation)
+    end</code></pre>
 
 
 

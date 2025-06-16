@@ -1478,28 +1478,26 @@
 
   <h1>Pâte feuilletée</h1>
 
-<p>graph TD
+<pre class="mermaid"><code>graph TD
     subgraph Réception / Stockage
         A1[Sel] --&gt; B1(Température ambiante)
         A2[Farine] --&gt; B1
         A3[Eau] --&gt; B1
         A4[Beurre] --&gt; B2(Froid positif)
-    end</p>
-<pre><code>subgraph Mise en place
-    B2 --&gt; C1(Découpe)
-end
-
-subgraph Techniques culinaires
-    B1 -- Sel, Farine, Eau --&gt; D1(Détrempe / Boulage)
-    D1 --&gt; D2(Repos 3°C)
-    D2 --&gt; D3(Beurrage / Feuilletage)
-    C1 --&gt; D3
-    D3 --&gt; D4(Repos 3°C)
-    D4 --&gt; D5(Division / moulage)
-    D5 --&gt; D6(Congélation et maintien au froid)
-    D6 --&gt; D7(Utilisation)
-end
-</code></pre>
+    end
+    subgraph Mise en place
+        B2 --&gt; C1(Découpe)
+    end
+    subgraph Techniques culinaires
+        B1 -- Sel, Farine, Eau --&gt; D1(Détrempe / Boulage)
+        D1 --&gt; D2(Repos 3°C)
+        D2 --&gt; D3(Beurrage / Feuilletage)
+        C1 --&gt; D3
+        D3 --&gt; D4(Repos 3°C)
+        D4 --&gt; D5(Division / moulage)
+        D5 --&gt; D6(Congélation et maintien au froid)
+        D6 --&gt; D7(Utilisation)
+    end</code></pre>
 
 
 

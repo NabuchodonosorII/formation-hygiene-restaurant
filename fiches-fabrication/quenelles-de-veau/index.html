@@ -1478,44 +1478,44 @@
 
   <h1>Quenelles de veau</h1>
 
-<p>graph TD
+<pre class="mermaid"><code>graph TD
     subgraph Réception / Stockage
-        A1[Jaune d'œuf (ovoproduit)] --&gt; B1(Froid positif)
+        A1[Jaune d'œuf ovoproduit] --&gt; B1(Froid positif)
         A2[Beurre] --&gt; B1
         A3[Escalope de veau] --&gt; B1
         A4[Blanc d'œuf] --&gt; B1
         A5[Assaisonnement, Echalotes] --&gt; B2(Température ambiante)
         A6[Farine] --&gt; B2
         A7[Lait entamé] --&gt; B2
-    end</p>
-<pre><code>subgraph Mise en place
-    B1 -- Escalope de veau --&gt; C1(Hachage / mixage)
-end
+    end
 
-subgraph Panade
-    B2 -- Farine, Lait --&gt; D1(Cuisson)
-    D1 --&gt; D2(Desséchage)
-    D2 --&gt; D3(Fabrication de la panade : Mélange)
-    B2 -- Assaisonnement, Echalotes --&gt; D3
-    B1 -- Jaune d'oeuf, Beurre --&gt; D3
-    D3 --&gt; D4(Refroidissement)
-end
+    subgraph Mise en place
+        B1 -- Escalope de veau --&gt; C1(Hachage / mixage)
+    end
 
-subgraph Appareil
-    D4 --&gt; E1(Mélange à froid)
-    C1 --&gt; E1
-    B1 -- Blanc d'oeuf --&gt; E1
-end
+    subgraph Panade
+        B2 -- Farine, Lait --&gt; D1(Cuisson)
+        D1 --&gt; D2(Desséchage)
+        D2 --&gt; D3(Fabrication de la panade : Mélange)
+        B2 -- Assaisonnement, Echalotes --&gt; D3
+        B1 -- Jaune d'oeuf, Beurre --&gt; D3
+        D3 --&gt; D4(Refroidissement)
+    end
 
-subgraph Cuisson
-    E1 --&gt; F1(Façonnage)
-    F1 --&gt; F2(Pochage (jusqu'à flottement) / égouttage)
-    F2 --&gt; F3(Refroidissement)
-    F3 --&gt; F4(Maintien au froid)
-end
+    subgraph Appareil
+        D4 --&gt; E1(Mélange à froid)
+        C1 --&gt; E1
+        B1 -- Blanc d'oeuf --&gt; E1
+    end
 
-F4 --&gt; G1(Utilisation)
-</code></pre>
+    subgraph Cuisson
+        E1 --&gt; F1(Façonnage)
+        F1 --&gt; F2(Pochage jusqu'à flottement / égouttage)
+        F2 --&gt; F3(Refroidissement)
+        F3 --&gt; F4(Maintien au froid)
+    end
+
+    F4 --&gt; G1(Utilisation)</code></pre>
 
 
 

@@ -1478,47 +1478,47 @@
 
   <h1>Assiette de fruits de mer</h1>
 
-<p>graph TD
+<pre class="mermaid"><code>graph TD
     subgraph Réception / Stockage
-        A1[Eléments de décor. (algues...)] --&gt; B1(Froid positif)
+        A1[Eléments de décor. algues...] --&gt; B1(Froid positif)
         A2[Citrons] --&gt; B1
         A3[Mayonnaise] --&gt; B1
         A4[Palourdes, Praires, Huitres, fraiches] --&gt; B1
         A5[Bigorneaux, moules, frais] --&gt; B1
         A6[Tourteau frais] --&gt; B1
         A7[Langoustines, crevettes, surgelées] --&gt; B2(Froid négatif)
-    end</p>
-<pre><code>subgraph Mise en place
-    B1 -- Eléments de décor --&gt; C1(Lavage)
-    B1 -- Citrons --&gt; C2(Lavage)
-    C2 --&gt; C3(Tranchage)
-    B1 -- Palourdes, etc. --&gt; C4(Lavage)
-    C4 --&gt; C5(Ouverture)
-    B1 -- Bigorneaux, etc. --&gt; C6(Lavage)
-    B2 -- Langoustines, etc. --&gt; C7(Décongélation)
-end
+    end
 
-subgraph Techniques culinaires
-    C6 --&gt; D1(Cuisson (90-100°C : 3 min))
-    B1 -- Tourteau --&gt; D2(Cuisson (90-100°C : 15-20 min))
-    C7 --&gt; D3(Cuisson (90-100°C : 3 min))
-    D1 --&gt; D4(Refroidissement)
-    D2 --&gt; D4
-    D3 --&gt; D4
-    D4 --&gt; D5(Maintien en température (&lt; 3°C))
-    D5 --&gt; D6(Découpe)
-end
+    subgraph Mise en place
+        B1 -- Eléments de décor --&gt; C1(Lavage)
+        B1 -- Citrons --&gt; C2(Lavage)
+        C2 --&gt; C3(Tranchage)
+        B1 -- Palourdes, etc. --&gt; C4(Lavage)
+        C4 --&gt; C5(Ouverture)
+        B1 -- Bigorneaux, etc. --&gt; C6(Lavage)
+        B2 -- Langoustines, etc. --&gt; C7(Décongélation)
+    end
 
-subgraph Assemblage
-    C1 --&gt; E1(Assemblage)
-    C3 --&gt; E1
-    B1 -- Mayonnaise "cf. fiche mayonnaise" --&gt; E1
-    C5 --&gt; E1
-    D6 --&gt; E1
-end
+    subgraph Techniques culinaires
+        C6 --&gt; D1(Cuisson 90-100°C : 3 min)
+        B1 -- Tourteau --&gt; D2(Cuisson 90-100°C : 15-20 min)
+        C7 --&gt; D3(Cuisson 90-100°C : 3 min)
+        D1 --&gt; D4(Refroidissement)
+        D2 --&gt; D4
+        D3 --&gt; D4
+        D4 --&gt; D5(Maintien en température &lt; 3°C)
+        D5 --&gt; D6(Découpe)
+    end
 
-E1 --&gt; F1(Remise au client)
-</code></pre>
+    subgraph Assemblage
+        C1 --&gt; E1(Assemblage)
+        C3 --&gt; E1
+        B1 -- Mayonnaise cf. fiche mayonnaise --&gt; E1
+        C5 --&gt; E1
+        D6 --&gt; E1
+    end
+
+    E1 --&gt; F1(Remise au client)</code></pre>
 
 
 
