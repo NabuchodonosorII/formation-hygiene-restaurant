@@ -7,6 +7,11 @@ Chaque membre de l'équipe est un maillon essentiel de la chaîne de sécurité.
 C'est le geste le plus simple et le plus important en cuisine.
 
 { align=center width="600" }
+       
+<div class="custom-image">                                                                                                                                                             
+  <img src="../assets/lavage-mains.png" alt="Lavage des mains" width="300" />                                                                                                          
+  <p>Illustration du lavage des mains correct.</p>                                                                                                                                     
+</div>
 
 !!! tip "Quand se laver les mains ?"
     Le lavage des mains est **obligatoire** et systématique :
