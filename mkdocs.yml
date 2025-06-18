@@ -1,13 +1,13 @@
 # Informations générales sur le site
 site_name: Formation Hygiène Brasserie d'Orville
-site_url: https://NabuchodonosorII.github.io/formation-hygiene-restaurant/ # <-- TRÈS IMPORTANT à modifier
+site_url: https://NabuchodonosorII.github.io/formation-hygiene-restaurant/
 site_author: Tom Luczak
 site_description: Site de formation interne sur les bonnes pratiques d'hygiène et l'HACCP.
 
 # Thème et fonctionnalités
 theme:
-  logo: assets/logo.png
   name: material
+  logo: assets/logo.png
   features:
     - navigation.tabs
     - navigation.instant
@@ -29,55 +29,56 @@ theme:
   icon:
     repo: fontawesome/brands/github
 
-# Structure de la navigation (MISE À JOUR)
+# Structure de la navigation
 nav:
-  - Accueil: index.md # Ce fichier doit exister dans docs/
+  - Accueil: index.md
   - Bonnes Pratiques d'Hygiène:
-    - Introduction: bph/index.md
-    - Hygiène du personnel: bph/1-hygiene-personnel.md
-    - Nettoyage et désinfection: bph/2-nettoyage-desinfection.md
-    - Locaux et lutte contre les nuisibles: bph/3-environnement-travail.md # Nom corrigé
+      - Introduction: bph/index.md
+      - Hygiène du personnel: bph/1-hygiene-personnel.md
+      - Nettoyage et désinfection: bph/2-nettoyage-desinfection.md
+      - Environnement de travail: bph/3-environnement-travail.md
   - HACCP:
-    - Introduction: haccp/index.md
-    - Les 7 principes: haccp/7-principes.md
+      - Introduction: haccp/index.md
+      - Les 7 principes: haccp/7-principes.md
   - Fiches de Fabrication:
-    - Introduction: fiches-fabrication/index.md
-    - Assiette de fruits de mer: fiches-fabrication/assiette-de-fruits-de-mer.md
-    - Blanquette de volaille: fiches-fabrication/blanquette-de-volaille.md
-    - Bouchée à la reine: fiches-fabrication/bouchee-a-la-reine.md # Nom corrigé
-    - Carpaccio: fiches-fabrication/carpaccio.md
-    - Chantilly: fiches-fabrication/chantilly.md
-    - Crème anglaise: fiches-fabrication/creme-anglaise.md
-    - Crème brûlée: fiches-fabrication/creme-brulee.md
-    - Crème glacée aux fruits: fiches-fabrication/creme-glace-aux-fruits.md
-    - Escargots farcis: fiches-fabrication/escargot-farcis.md
-    - Foie gras: fiches-fabrication/foie-gras.md
-    - Fonds brun de veau: fiches-fabrication/fonds-brun-de-veau.md
-    - Fumet de poisson: fiches-fabrication/fumet-de-poisson.md
-    - Galette œuf jambon fromage: fiches-fabrication/galette-oeuf-jambon-fromage.md
-    - Gelée: fiches-fabrication/gelee.md
-    - Lasagnes de bœuf: fiches-fabrication/lasagne-de-boeuf.md
-    - Mousse au chocolat: fiches-fabrication/mousse-chocolat.md # Extension corrigée
-    - Omelette: fiches-fabrication/omelette.md
-    - Pâte feuilletée: fiches-fabrication/pate-feuillete.md
-    - Quenelles de veau: fiches-fabrication/quenelles-de-veau.md
-    - Quiche lorraine: fiches-fabrication/quiche-lorraine.md
-    - Rognons de veau à la moutarde: fiches-fabrication/rognons-de-veau-a-la-moutarde.md
-    - Salade piémontaise: fiches-fabrication/salade-piemontaise.md
-    - Sauce béarnaise: fiches-fabrication/sauce-bearnaise.md
-    - Sauce mayonnaise: fiches-fabrication/sauce-mayonnaise.md
-    - Saumon mariné: fiches-fabrication/saumon-marine.md
-    - Sauté de veau marengo: fiches-fabrication/saute-de-veau-marengo.md
-    - Steak tartare: fiches-fabrication/steak-tartare.md
-    - Tarte aux fraises: fiches-fabrication/tarte-au-fraise.md # Attention au nom (fraise sans s)
-    - Turbot poché: fiches-fabrication/turbo-poche.md
+      - Introduction: fiches-fabrication/index.md
+      - Assiette de fruits de mer: fiches-fabrication/assiette-de-fruits-de-mer.md
+      - Blanquette de volaille: fiches-fabrication/blanquette-de-volaille.md
+      - Bouchée à la reine: fiches-fabrication/bouchee-a-la-reine.md
+      - Carpaccio: fiches-fabrication/carpaccio.md
+      - Chantilly: fiches-fabrication/chantilly.md
+      - Crème anglaise: fiches-fabrication/creme-anglaise.md
+      - Crème brûlée: fiches-fabrication/creme-brulee.md
+      - Crème glacée aux fruits: fiches-fabrication/creme-glace-aux-fruits.md
+      - Escargots farcis: fiches-fabrication/escargot-farcis.md
+      - Foie gras: fiches-fabrication/foie-gras.md
+      - Fonds brun de veau: fiches-fabrication/fonds-brun-de-veau.md
+      - Fumet de poisson: fiches-fabrication/fumet-de-poisson.md
+      - Galette œuf jambon fromage: fiches-fabrication/galette-oeuf-jambon-fromage.md
+      - Gelée: fiches-fabrication/gelee.md
+      - Lasagnes de bœuf: fiches-fabrication/lasagne-de-boeuf.md
+      - Mousse au chocolat: fiches-fabrication/mousse-chocolat.md
+      - Omelette: fiches-fabrication/omelette.md
+      - Pâte feuilletée: fiches-fabrication/pate-feuillete.md
+      - Quenelles de veau: fiches-fabrication/quenelles-de-veau.md
+      - Quiche lorraine: fiches-fabrication/quiche-lorraine.md
+      - Rognons de veau à la moutarde: fiches-fabrication/rognons-de-veau-a-la-moutarde.md
+      - Salade piémontaise: fiches-fabrication/salade-piemontaise.md
+      - Sauce béarnaise: fiches-fabrication/sauce-bearnaise.md
+      - Sauce mayonnaise: fiches-fabrication/sauce-mayonnaise.md
+      - Saumon mariné: fiches-fabrication/saumon-marine.md
+      - Sauté de veau marengo: fiches-fabrication/saute-de-veau-marengo.md
+      - Steak tartare: fiches-fabrication/steak-tartare.md
+      - Tarte aux fraises: fiches-fabrication/tarte-au-fraise.md
+      - Turbot poché: fiches-fabrication/turbo-poche.md
   - Ressources:
-    - Introduction: ressources/index.md
-    - Plan de Nettoyage: ressources/plan-de-nettoyage.md
-    - Températures Clés: ressources/temperatures-cles.md
+      - Introduction: ressources/index.md
+      - Plan de Nettoyage: ressources/plan-de-nettoyage.md
+      - Températures Clés: ressources/temperatures-cles.md
 
 # Extensions Markdown
 markdown_extensions:
+  - md_in_html
   - admonition
   - pymdownx.details
   - pymdownx.superfences:

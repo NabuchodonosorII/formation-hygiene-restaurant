@@ -16,4 +16,4 @@ Le PMS est le document qui décrit toutes les mesures que nous prenons pour assu
 
 L'HACCP est une méthode logique qui se décline en 7 principes fondamentaux.
 
-[Découvrir les 7 principes de l'HACCP](haccp/7-principes.md)
+[Découvrir les 7 principes de l'HACCP](7-principes.md)
