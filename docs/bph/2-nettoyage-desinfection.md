@@ -64,7 +64,7 @@ Le **cercle de Sinner** (T.A.C.T.) est la base d’un nettoyage professionnel. C
 - **Détergents** : Choisissez des produits adaptés (ex : détergent alcalin pour graisses, acide pour calcaire).  
 - **Désinfectants** : Suivez les recommandations du fabricant (ex : concentration de chlore, temps de contact).  
 
-**📊 Exemple de Tableau** :  
+**Exemple de Tableau** :  
 | Type de Surface | Désinfectant Recommandé | Temps de Contact |  
 |----------------|-------------------------|------------------|  
 | Acier inoxydable | Chloré (500 ppm)        | 5 minutes         |  
@@ -76,7 +76,7 @@ Le **cercle de Sinner** (T.A.C.T.) est la base d’un nettoyage professionnel. C
 - Les désinfectants nécessitent un **temps de contact** pour pénétrer les membranes bactériennes.  
 - **Risque** : Un temps insuffisant laisse les bactéries résistantes (ex : E. coli, Salmonella).  
 
-**⏳ Règle** :  
+**Règle** :  
 > **N’appliquez jamais de nouveau produit avant que l’ancien ait agi**.  
 > Utilisez un **chronomètre** ou une **application mobile**.
 
@@ -90,7 +90,7 @@ Le **cercle de Sinner** (T.A.C.T.) est la base d’un nettoyage professionnel. C
   - Retirer les ustensiles, les aliments, les objets non essentiels.  
   - Protéger les zones sensibles (ex : électro-ménagers) avec des bâches.  
 
-**⚠️ Danger** :  
+**Danger** :  
 > Un plan de travail encombré augmente le risque de **contamination croisée**.
 
 **2. Nettoyage**  
@@ -99,7 +99,7 @@ Le **cercle de Sinner** (T.A.C.T.) est la base d’un nettoyage professionnel. C
   - Utilisez une **solution savonneuse** (100 mL de détergent par L d’eau).  
   - Brossez les joints, les coins, les canalisations.  
 
-**💡 Astuce** :  
+**Astuce** :  
 > Pour les surfaces métalliques, utilisez une **brosse en acier inoxydable** pour éviter les micro-scratches.
 
 **3. Rinçage**  
@@ -107,7 +107,7 @@ Le **cercle de Sinner** (T.A.C.T.) est la base d’un nettoyage professionnel. C
 - **Critère de réussite** : La surface doit être **sèche au toucher** après rinçage.  
 - **Méthode** : Rincer à l’eau claire avec un **chiffon propre** ou une **brosse à rincer**.  
 
-**⚠️ Danger** :  
+**Danger** :  
 > Les résidus de détergent peuvent **irriter la peau** ou polluer les aliments.
 
 **4. Désinfection**  
@@ -133,7 +133,7 @@ Le **cercle de Sinner** (T.A.C.T.) est la base d’un nettoyage professionnel. C
 
 ## **4. Fréquence et Zones Critiques**
 
-🗓️ **Fréquence de Nettoyage**  
+**Fréquence de Nettoyage**  
 | Zone | Fréquence |  
 |------|-----------|  
 | Plan de travail | Après chaque utilisation |  
@@ -142,29 +142,29 @@ Le **cercle de Sinner** (T.A.C.T.) est la base d’un nettoyage professionnel. C
 | Tapis de cuisine | Jour |  
 | Tabliers et gants | Après chaque usage |  
 
-🔍 **Zones à Risque Élevé**  
+**Zones à Risque Élevé**  
 - **Zones de préparation** : Tables, couteaux, éconduits.  
 - **Zones de stockage** : Frigos, armoires.  
 - **Zones de circulation** : Tapis, portes, poignées.  
 
-**❗ Priorité** :  
+**Priorité** :  
 > Nettoyez les zones de **préparation des aliments crus** en premier, puis passez aux zones de **plats prêts à servir**.
 
 ---
 
 ## **5. Outils et Matériels**
 
-🧺 **Équipement de Base**  
+**Équipement de Base**  
 - **Éponges** : Utiliser des éponges **blanches** pour les surfaces, **rouges** pour les sols (code couleur pour éviter la contamination).  
 - **Chiffons** : Chiffons **à usage unique** ou **lavables en machine à 90°C**.  
 - **Brosses** : Brosses rigides pour les canalisations, brosses douces pour les ustensiles.  
 
-🧼 **Produits Recommandés**  
+**Produits Recommandés**  
 - **Détergent universel** : Pour les surfaces et ustensiles.  
 - **Désinfectant chloré** : Pour les zones critiques.  
 - **Désinfectant à base d’alcool** : Pour les ustensiles portables.  
 
-**📝 Checklist de Stockage** :  
+**Checklist de Stockage** :  
 - Étiquetage clair.  
 - Date de péremption visible.  
 - Stockage à l’abri de la lumière et de l’humidité.
@@ -173,7 +173,7 @@ Le **cercle de Sinner** (T.A.C.T.) est la base d’un nettoyage professionnel. C
 
 ## **6. Tests et Réflexes**
 
-🔄 **Testez Votre Connaissance**  
+**Testez Votre Connaissance**  
 ??? question "Question 1 : Quel est le risque de ne pas respecter le temps de contact d’un désinfectant ?"  
     **Réponse :**  
     - Les bactéries résistantes (ex : Staphylococcus aureus) survivent et peuvent contaminer les aliments.  
@@ -184,7 +184,7 @@ Le **cercle de Sinner** (T.A.C.T.) est la base d’un nettoyage professionnel. C
     - Les résidus de désinfectant peuvent **polluer les aliments** ou **irriter les clients**.  
     - Les aliments sensibles (ex : fromages) peuvent développer un goût désagréable.  
 
-📢 **Réflexe à Acquérir**  
+**Réflexe à Acquérir**  
 > **"Nettoyer, c’est protéger"** :  
 > - Un plan de travail propre = une **réduction de 90% des bactéries**.  
 > - Une désinfection rigoureuse = une **sécurité alimentaire renforcée**.  
@@ -193,9 +193,9 @@ Le **cercle de Sinner** (T.A.C.T.) est la base d’un nettoyage professionnel. C
 
 ## **7. Ressources Complémentaires**
 
-🔗 [**Plan de Nettoyage Détail**](../ressources/plan-de-nettoyage.md)  
-📊 [**Guide des Produits de Nettoyage**](../ressources/guide-produits.md)  
-🎥 [**Vidéos de Démonstration**](../ressources/videos.md)  
+[**Plan de Nettoyage Détail**](../ressources/plan-de-nettoyage.md)  
+[**Guide des Produits de Nettoyage**](../ressources/guide-produits.md)  
+[**Vidéos de Démonstration**](../ressources/videos.md)  
 
 ---
 
@@ -204,4 +204,4 @@ Le **cercle de Sinner** (T.A.C.T.) est la base d’un nettoyage professionnel. C
 > **"Nettoyer et désinfecter, c’est investir dans la confiance de vos clients et dans la réputation de votre établissement."**  
 Par votre rigueur, vous devenez un **garant de la qualité** et un **ambassadeur de la sécurité alimentaire**.  
 
-**📅 Prochaine étape** : Apprenez à gérer les **urgences sanitaires** dans le chapitre suivant.
+**Prochaine étape** : Apprenez à gérer les **urgences sanitaires** dans le chapitre suivant.
