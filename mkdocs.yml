@@ -32,8 +32,15 @@ theme:
 # Structure de la navigation
 nav:
   - Accueil: index.md
+  - Microbiologie:
+      - Introduction: microbiologie/index.md
+      - Le monde microbien: microbiologie/intro.md
+      - Virulence & toxines: microbiologie/virulence.md
+      - Focus sur les pathogènes: microbiologie/focus-pathogens.md
+
   - Bonnes Pratiques d'Hygiène:
       - Introduction: bph/index.md
+      - Microbiologie, Virulence et pouvoir pathogène:  bph/microbiologie.md
       - Hygiène du personnel: bph/1-hygiene-personnel.md
       - Nettoyage et désinfection: bph/2-nettoyage-desinfection.md
       - Environnement de travail: bph/3-environnement-travail.md
@@ -78,6 +85,11 @@ nav:
 
 # Extensions Markdown
 markdown_extensions:
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
   - md_in_html
   - admonition
   - pymdownx.details
@@ -96,3 +108,7 @@ markdown_extensions:
       custom_checkbox: true
   - toc:
       permalink: true
+
+
+extra_templates:
+  - assets/diagrm.html

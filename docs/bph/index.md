@@ -9,3 +9,4 @@ Cette section couvre les piliers fondamentaux des BPH :
 1.  **[L'Hygiène du Personnel](1-hygiene-personnel.md)** : Car nous sommes le premier vecteur potentiel de contamination.
 2.  **[Le Nettoyage et la Désinfection](2-nettoyage-desinfection.md)** : Pour maintenir un environnement de travail sain.
 3.  **[L'Environnement de Travail](3-environnement-travail.md)** : Comprend la gestion des locaux, des déchets et la lutte contre les nuisibles.
+
