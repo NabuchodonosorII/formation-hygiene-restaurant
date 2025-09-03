@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#section-fiches-de-fabrication" class="md-skip">
+        <a href="#fiches-de-fabrication-haccp-methode-optimale" class="md-skip">
           Skip to content
         </a>
       
@@ -726,6 +726,24 @@
   <a href="#comment-lire-les-diagrammes" class="md-nav__link">
     <span class="md-ellipsis">
       Comment lire les diagrammes ?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#code-couleur-et-symbolique" class="md-nav__link">
+    <span class="md-ellipsis">
+      Code Couleur et Symbolique
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modele-de-diagramme-de-fabrication" class="md-nav__link">
+    <span class="md-ellipsis">
+      Modèle de Diagramme de Fabrication
     </span>
   </a>
   
@@ -1547,24 +1565,112 @@
 
 
 
-<h1 id="section-fiches-de-fabrication">Section : Fiches de Fabrication<a class="headerlink" href="#section-fiches-de-fabrication" title="Permanent link">&para;</a></h1>
+<h1 id="fiches-de-fabrication-haccp-methode-optimale">Fiches de Fabrication HACCP - Méthode Optimale<a class="headerlink" href="#fiches-de-fabrication-haccp-methode-optimale" title="Permanent link">&para;</a></h1>
 <p>Les fiches de fabrication sont la mise en application concrète de la méthode HACCP pour nos recettes. Elles transforment une recette de cuisine en une procédure de travail sûre et reproductible.</p>
 <p>Chaque fiche détaille :
-- Les ingrédients et leur origine.
-- Le déroulement des opérations sous forme de diagramme.
-- Les points de maîtrise et les CCP (Points Critiques) avec leurs limites.</p>
+- Les ingrédients et leur origine
+- Le déroulement des opérations sous forme de diagramme
+- Les points de maîtrise et les CCP (Points Critiques) avec leurs limites</p>
 <h2 id="comment-lire-les-diagrammes">Comment lire les diagrammes ?<a class="headerlink" href="#comment-lire-les-diagrammes" title="Permanent link">&para;</a></h2>
-<p>Les diagrammes de fabrication permettent de visualiser rapidement le processus. Une attention particulière doit être portée aux étapes colorées :</p>
-<pre class="mermaid"><code>graph TD
-    A[Étape normale] --&gt; B;
-    B{Étape de contrôle critique CCP} --&gt; C;
-    C[Étape finale]
+<p>Les diagrammes de fabrication permettent de visualiser rapidement le processus. Une attention particulière doit être portée aux étapes critiques, les étapes notées en rouge.</p>
+<h2 id="code-couleur-et-symbolique">Code Couleur et Symbolique<a class="headerlink" href="#code-couleur-et-symbolique" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Type d'étape</th>
+<th>Apparence</th>
+<th>Signification</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Étape normale</strong></td>
+<td>Rectangle bleu clair</td>
+<td>Opération standard de fabrication</td>
+</tr>
+<tr>
+<td><strong>CCP (Point Critique)</strong></td>
+<td>Rectangle rouge avec bordure épaisse</td>
+<td>Contrôle obligatoire pour la sécurité ★</td>
+</tr>
+<tr>
+<td><strong>Contrôle qualité</strong></td>
+<td>Rectangle vert</td>
+<td>Vérification ponctuelle</td>
+</tr>
+<tr>
+<td><strong>Porte qualité</strong></td>
+<td>Rectangle vert foncé</td>
+<td>Validation avant passage à l'étape suivante</td>
+</tr>
+<tr>
+<td><strong>Attente/Retravail</strong></td>
+<td>Rectangle orange</td>
+<td>Pause ou correction dans le processus</td>
+</tr>
+</tbody>
+</table>
+<h2 id="modele-de-diagramme-de-fabrication">Modèle de Diagramme de Fabrication<a class="headerlink" href="#modele-de-diagramme-de-fabrication" title="Permanent link">&para;</a></h2>
+<pre class="mermaid"><code>flowchart TD
+    %% Définition des styles pour les différents types d'étapes
+    classDef normal fill:#e1f5fe,stroke:#64b5f6,color:#000,stroke-width:1px
+    classDef ccp fill:#ffcdd2,stroke:#f44336,color:#000,stroke-width:3px,font-weight:bold
+    classDef controle fill:#c8e6c9,stroke:#4caf50,color:#000,stroke-width:1px
+    classDef attente fill:#fff3e0,stroke:#ff9800,color:#000,stroke-width:1px
+    classDef qualite fill:#e8f5e8,stroke:#2e7d32,color:#000,stroke-width:2px,dashArray:5 5
 
-    style B fill:#ff9999,stroke:#333,stroke-width:2px</code></pre>
+    %% Processus de fabrication optimal
+    A[Réception ingrédients&lt;br/&gt;Vérification fournisseurs]:::normal --&gt; B[/Contrôle documentaire&lt;br/&gt;Traçabilité/]:::qualite
+    B --&gt; C[Stockage&lt;br/&gt;Conditions requises]:::normal
+    C --&gt; D[(PRÉPARATION CRITIQUE ★ CCP1&lt;br/&gt;Température &lt; 5°C&lt;br/&gt;Durée max 30min)]:::ccp
+    D --&gt; E[/Contrôle température&lt;br/&gt;Visuel/]:::controle
+    E --&gt; F[Cuisson&lt;br/&gt;T°=75°C pendant 2min]:::normal
+    F --&gt; G[(CONSERVATION CRITIQUE ★ CCP2&lt;br/&gt;Chaîne du froid&lt;br/&gt;T° &lt; 8°C)]:::ccp
+    G --&gt; H[/Contrôle final&lt;br/&gt;Goût/Odeur/Aspect/]:::qualite
+    H --&gt; I[Conditionnement&lt;br/&gt;Emballage]:::normal
+    I --&gt; J[(STOCKAGE FINI ★ CCP3&lt;br/&gt;T° 0-4°C&lt;br/&gt;DLUO respecté)]:::ccp
+
+    %% Gestion des non-conformités
+    E -- Conforme --&gt; F
+    E -- Non conforme --&gt; E1[Rejet lot ★ CCP4&lt;br/&gt;Incident qualité]:::ccp
+
+    H -- Conforme --&gt; I
+    H -- Non conforme --&gt; H1[Analyse&lt;br/&gt;Destruction]:::attente</code></pre>
+<h1 id="identification-des-points-critiques">Identification des Points Critiques<a class="headerlink" href="#identification-des-points-critiques" title="Permanent link">&para;</a></h1>
+<p>Les CCP sont identifiés selon les critères suivants :</p>
+<h2 id="1-risques-microbiologiques">1. Risques microbiologiques<a class="headerlink" href="#1-risques-microbiologiques" title="Permanent link">&para;</a></h2>
 <ul>
-<li><strong>Les boîtes blanches</strong> représentent les étapes de fabrication standards.</li>
-<li><strong>Les boîtes rouges (CCP)</strong> représentent un <strong>Point Critique de Contrôle</strong>. C'est une étape où une perte de maîtrise entraîne un risque inacceptable pour le consommateur. Elle doit être surveillée et enregistrée.</li>
+<li>Températures dangereuses (zone 5-65°C)</li>
+<li>Temps d'exposition prolongé</li>
+<li>Manutention sans protection</li>
 </ul>
+<h2 id="2-risques-physiques">2. Risques physiques<a class="headerlink" href="#2-risques-physiques" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Étapes de découpe/tranchage</li>
+<li>Utilisation d'équipements lourds</li>
+<li>Manipulation de produits chauds</li>
+</ul>
+<h2 id="3-risques-chimiques">3. Risques chimiques<a class="headerlink" href="#3-risques-chimiques" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Utilisation d'additifs alimentaires</li>
+<li>Nettoyage/assainissement</li>
+<li>Conservation avec produits chimiques</li>
+</ul>
+<h2 id="4-criteres-de-validation">4. Critères de validation<a class="headerlink" href="#4-criteres-de-validation" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Impact direct sur la sécurité consommateur</li>
+<li>Non-détection possible en étape ultérieure</li>
+<li>Mesure objective possible</li>
+<li>Limites clairement définies</li>
+</ul>
+<h1 id="informations-obligatoires-pour-chaque-ccp">Informations obligatoires pour chaque CCP<a class="headerlink" href="#informations-obligatoires-pour-chaque-ccp" title="Permanent link">&para;</a></h1>
+<p>Chaque CCP identifié doit comporter :
+- ★ CCP + Numéro (identification claire)
+- Limite critique (température, temps, pH, etc.)
+- Méthode de surveillance
+- Fréquence de contrôle
+- Personne responsable
+- Actions correctives prévues</p>
 
 
 
