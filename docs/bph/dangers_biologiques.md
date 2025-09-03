@@ -190,7 +190,7 @@ La contamination fécale de certains aliments ainsi que la contamination croisé
 E. Coli 0157:H7 a une température optimale de croissance qui se situe vers +40 °C et est capable de se multiplier entre +6-7 °C et +45,5°C.
 Elle n'est pas considérée comme thermorésistante (cuisson d'une viande à 70° à cœur est préconisée ainsi que l'ébullition pour le lait cru).
 ### Le pH
-E. Coli 0157:H7 est capable de se développer dans des milieux acides (pH de 4,4).
+E. Coli 0157:H7 est capable de se développer dans des milieux acides (pH dzdzdde 4,4).
 ### L'activité de l'eau
 E. Coli 0157 :H7 se développe dans des milieux avec une aw d'au moins 0,95.
 
@@ -205,7 +205,7 @@ N'y pas généralement d'élevation forte de la température.
 La durée de la maladie est courte (de 6 à 48 heures) et la guérison est complète presque dans tous les cas. La guérison des manifestations aigues survient rapidement (2 à 5 heures) mais le manque d'appétit et les diarrhées peuvent continuer pendant un à deux jours.
 Les cas mortels sont très rares et surviennent chez des personnes fragiles suite à une forte déshydratation.
 ## L'origine des germes
-*Staphylococcus aureus* est présent dans le nez, la gorge et sur la peau. Il peut aussi venir de personnes atteintes d'infections de type abrès, panaris, angine...
+*Staphylococcus aureus* est présent dans le nez, la gorge et sur la peau. Il peut aussi venir de personnes atteintes d'infections de type abcès, panaris, angine...
 Les aliments favorables à son développement sont les glaces, les crèmes, les salades composés, les restes réchauffés, etc. Plus l'aliment est manipulé, plus le risque de contamination est élevé.
 ## La multiplication des germes
 ### La température
