@@ -33,10 +33,15 @@ Les facteurs principaux à retenir :
 - **Activité de l'eau (a<sub>w</sub>)** : représente la disponibilité de l’eau pour les germes (valeurs entre 0 et 1). On peut diminuer a<sub>w</sub> par dessiccation, sel, sucre.
 - **Atmosphère (oxygène)** : aérobies (besoin d’O₂), anaérobies (croissance en absence d’O₂), aéro-anaérobies (peuvent croître en présence ou absence d’O₂).
 
+<br>
 
-[^21]: Pour plus d’informations, se reporter aux fiches de dangers biologiques de l’ANSES — www.anses.fr
+ Pour plus d’informations, se reporter aux fiches de dangers biologiques de [l’ANSES](www.anses.fr)
+
+<br>
 
 Exemples de pH d’aliments (source : food-info.net) :
+
+
 | Aliment               | pH / Valeur approximative | Aliment               | pH / Valeur approximative |
 |-----------------------|---------------------------|-----------------------|---------------------------|
 | haricots verts        | 4,6                       | agneau                | 5,4 à 6,7                 |
@@ -53,6 +58,28 @@ Exemples de pH d’aliments (source : food-info.net) :
 
 
 Toutes ces informations peuvent vous permettre de comprendre que les mesures proposées pour assurer la maîtrise de l'hygiène et de la fabrication doivent impérativement être appliquées pour préserver la santé des consommateurs.
+
+
+Exemples de pH d’aliments :
+
+
+| Aliment               | pH / Valeur approximative | Aliment               | pH / Valeur approximative |
+|-----------------------|---------------------------|-----------------------|---------------------------|
+| haricots verts        | 4,6                       | agneau                | 5,4 à 6,7                 |
+| ... (reste de la table) |
+
+Chaque pathogène décrit dans cette section suit **exactement le même schéma** :
+1. **Le nom du pathogène** : identification claire (ex. *Salmonella*, *Norovirus*).
+2. **La maladie** : symptômes, durée, gravité et populations vulnérables.
+3. **L’origine des germes** : sources de contamination courantes.
+4. **La multiplication des germes** : conditions favorisant leur prolifération (température, pH, activité de l'eau *a<sub>w</sub>*, atmosphère).
+
+Ce schéma récurrent vous permettra d’identifier **rapidement les risques spécifiques** à chaque pathogène et d’appliquer immédiatement les mesures préventives adaptées en cuisine.
+
+---
+<br>
+# 1. Salmonelles
+
 
 
 # 1. Salmonelles
@@ -77,6 +104,8 @@ Les salmonelles ne se multiplient plus pour des valeurs (a<sub>w</sub>) inférie
 ### L’atmosphère
 Les salmonelles peuvent se développer en présence ou en absence d’oxygène. A basse température, la croissance est retardée en présence de gaz carbonique.
 
+<br><br>
+
 # 2. Listeria monocytogenes
 ## La maladie
 *Listeria monocytogenes* est une bactérie que l’on peut trouver partout, très largement répandue dans l’environnement et qui possède de grandes capacités de résistance dans le milieu extérieur. Sa particularité est son aptitude à se multiplier aux températures de réfrigération.
@@ -98,6 +127,9 @@ Les aliments cuits peuvent rester contaminés à la suite d’un traitement ther
 ### L’atmosphère
 *Listeria monocytogenes* peut se développer en présence de beaucoup d’oxygène ou en absence.
 
+<br>
+<br>
+
 # 3. Bacillus cereus
 ## La maladie
 Bacillus cereus est une bactérie. Le Céréulide est la toxine produite par la bactérie.
@@ -118,6 +150,9 @@ La croissance de Bacillus cereus n’est possible qu’à une a$_w$ supérieure 
 ### L’atmosphère
 Bacillus cereus est une bactérie se développant en présence ou non d’oxygène.
 
+<br>
+<br>
+
 # 4. Campylobacter
 ## La maladie
 Les *Campylobacter* sont des bactéries. En France, l’incidence estimée de campylobactérioses humaines est de 21 à 29 cas pour 100 000 habitants.
@@ -135,6 +170,9 @@ Les *Campylobacter* peuvent se développer à des pH compris entre 4,9 et 9, mai
 Les *Campylobacter* n’arrivent pas à se développer à une a$_w$ en dessous de 0,987.
 ### L’atmosphère
 Leur croissance est favorisée par un milieu appauvri en oxygène.
+
+<br>
+<br>
 
 # 5. Escherichia Coli entérohémorragiques (ECEH)
 ## La maladie
@@ -155,6 +193,9 @@ Elle n'est pas considérée comme thermorésistante (cuisson d'une viande à 70�
 E. Coli 0157:H7 est capable de se développer dans des milieux acides (pH de 4,4).
 ### L'activité de l'eau
 E. Coli 0157 :H7 se développe dans des milieux avec une aw d'au moins 0,95.
+
+<br>
+<br>
 
 # 6. Staphylococques pathogènes
 ## La maladie
@@ -178,6 +219,9 @@ Les aliments favorables à son développement sont les glaces, les crèmes, les 
 ### Autres paramètres
 *Staphylococcus aureus* tolère des concentrations élevées en sel.
 
+<br>
+<br>
+
 # 7. Clostridium perfringens
 ## La maladie
 Clostridium perfringens est une bactérie qui produit une toxine dans le tractus intestinal des personnes ayant consommé des aliments contaminés.
@@ -197,6 +241,9 @@ Un maintien durant plusieurs heures de préparations à base de viande ou d'amid
 *Clostridium perfringens* se développe à une *a<sub>w</sub>*d moins qu'à 0,97.
 ### L'atmosphère
 *Clostridium perfringens* est anaérobique strict mais peut se développer dans des milieux pauvres en oxygène.
+
+<br>
+<br>
 
 # 8. Clostridium botulinum
 ## La maladie
@@ -241,6 +288,11 @@ La contamination peut se faire directement de personne à personne ou indirectem
 Les Norovirus sont résistants à la chaleur, il faut un traitement d’au moins 100°C durant 1 min pour les détruire.
 ### Le pH
 Les Norovirus sont très résistants aux pH acides ou basiques.
+
+<br>
+<br>
+
+
 # 10. Anisakis
 ## Cycle de vie
 Anisakis est un genre de nématodes (parasites – vers ronds) que l’on retrouve dans le tube digestif des animaux marins.
@@ -253,6 +305,9 @@ L’anisakiasie est la maladie causée par l’infection venant des vers Anisaki
 Cette maladie est fréquemment constatée dans les zones géographiques où le poisson est consommé cru (ou peu cuit, fumés, mariniés ou salés).
 Exemple de préparations culinaires pouvant être contaminées : sushis, rollmops, ceviche.
 Le chauffage à + 55 °C durant une minute ou l’application d’une température de –20 °C pendant 24 heures est une méthode efficace pour tuer ces parasites.
+
+<br>
+<br>
 
 # 11. Histamine
 ## La maladie
@@ -274,8 +329,3 @@ Le seul moyen de prévention est à limiter la prolifération de ces Entérobact
 - Le graphique de la page d'accueil indique quels agents posent le plus de problèmes : utilisez-le pour prioriser les actions (ex. renforcer contrôle œufs/ovo-produits pour *Salmonella*, exclure personnel malade pour *Norovirus*, limiter manipulations d’aliments prêts à consommer pour *S. aureus*, refroidir rapidement grandes quantités pour *C. perfringens*, vérifier eau/filtration pour *Cryptosporidium*/parasites, stérilisation correcte pour conserves pour *C. botulinum*).  
 - **Maîtriser la température, le temps, l'eau disponible (a<sub>w</sub>), le pH et l'hygiène** = réduire fortement les risques.  
 - Pour chaque pathogène identifié dans votre graphique : notez **les aliments à risque**, appliquez les **mesures immédiates** (cuisson, refroidissement, séparation cru/cuit, exclusion personnel malade, traçabilité) et documentez dans le PMS/HACCP.
----
-Si tu veux, je peux maintenant :  
-- transformer cette page en **fichier unique** prêt à coller (`microbiologie.md`) ;  
-- ou extraire des **fiches rapides imprimables** (A4) par pathogène en gardant exactement les textes ci-dessus.  
-Dis simplement laquelle tu préfères et je génère le fichier Markdown correspondant.
