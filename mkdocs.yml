@@ -32,18 +32,12 @@ theme:
 # Structure de la navigation
 nav:
   - Accueil: index.md
-  - Microbiologie:
-      - Introduction: microbiologie/index.md
-      - Le monde microbien: microbiologie/intro.md
-      - Virulence & toxines: microbiologie/virulence.md
-      - Focus sur les pathogènes: microbiologie/focus-pathogens.md
-
-  - Bonnes Pratiques d'Hygiène:
+  - Maîtriser l’Hygiène en Cuisine:
       - Introduction: bph/index.md
-      - Microbiologie, Virulence et pouvoir pathogène:  bph/microbiologie.md
+      - Dangers biologiques:  bph/dangers_biologiques.md
       - Hygiène du personnel: bph/1-hygiene-personnel.md
       - Nettoyage et désinfection: bph/2-nettoyage-desinfection.md
-      - Environnement de travail: bph/3-environnement-travail.md
+      - Gestion des déchets: bph/3-gestion-dechets.md
   - HACCP:
       - Introduction: haccp/index.md
       - Les 7 principes: haccp/7-principes.md

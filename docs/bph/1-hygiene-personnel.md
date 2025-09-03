@@ -1,121 +1,143 @@
-# Chapitre 1 — L'Hygiène du Personnel : Votre signature sanitaire
+# Hygiène et formation du personnel
 
-Chaque membre de l'équipe est un **ambassadeur de la sécurité alimentaire**. Votre rigueur quotidienne est la première garantie de la qualité et de la sécurité des plats que nous servons. Ce module vous donne les règles essentielles et les gestes réflexes pour protéger nos clients — et notre établissement.
+Le personnel qui manipule les aliments peut être une source de contamination importante, soit du fait de son mauvais état de santé ou d'être porteur {==asymptomatique==} de certains germes, d'un comportement inapproprié mais également du fait d'une hygiène corporelle inadéquate. Il faut donc former tous les collaborateurs de l'entreprise aux règles d'hygiène et de sécurité sanitaire des aliments mais aussi assurer une surveillance de la maîtrise de ces règles d'hygiène qui peuvent avoir des conséquences sanitaires indéniables en cas de mauvais comportement.
 
----
+{==Un porteur asymptomatique, ou porteur sain, est une personne qui héberge un agent infectieux sans que celui-ci provoque de symptômes visibles.==}
 
-## Objectifs de ce chapitre
-À la fin de ce module vous saurez :
-- Identifier les **risques liés au personnel** (microbiologiques, chimiques, physiques).  
-- Réaliser un **lavage des mains efficace** et systématique.  
-- Porter et entretenir une **tenue adaptée**.  
-- Agir correctement en cas de **blessure** ou de symptôme de maladie.  
+## Hygiène du personnel
 
----
+### Objectif : maîtriser les dangers de contamination
 
-## 1. Pourquoi une telle rigueur ? Comprendre les dangers
+Faire en sorte que les personnes en contact avec les aliments ne les contaminent pas. Ceci est possible grâce à :
 
-Votre hygiène prévient trois grandes familles de dangers qui contaminent les aliments :
+- une bonne hygiène corporelle et une tenue de travail adéquate et propre
+- un comportement approprié
+- un état de santé non susceptible de nuire à la sécurité sanitaire des aliments
 
-<div class="grid cards" markdown>
+### État de santé
 
--   __:octicons-bug-16: Dangers microbiologiques__  
-    ---  
-    Bactéries, virus, parasites, moisissures — invisibles mais responsables de la majorité des toxi-infections. Présents sur les mains, la peau, la salive, les cheveux.  
-    **Ce que cela peut provoquer :** intoxications, hospitalisations, perte de clientèle et réputation.
+Toute personne dont l'état de santé (vomissements, diarrhées, plaie infectée, rhinites...) pourrait conduire à la contamination des produits et/ou de l'environnement de travail, doit le signaler. Des mesures appropriées doivent être prises.
 
--   __:octicons-beaker-16: Dangers chimiques__  
-    ---  
-    Résidus de produits de nettoyage, parfums, crèmes non autorisées. Certains produits non rincés peuvent contaminer un plat.  
-    **Règle simple :** n’utiliser que les produits autorisés et rincer correctement.
+!!! example "Exemples de mesures"
+    
+    - Changement de poste de travail en cas d'infection dermique grave ou de troubles gastro-intestinaux afin de ne pas manipuler des aliments non préemballés
+    - Port d'un masque recouvrant le nez et la bouche en cas d'infections rhinopharyngées
+    - Plaie nettoyée et désinfectée puis protégée par un pansement étanche renouvelé régulièrement et port de gant obligatoire, voire de doigtier
 
--   __:octicons-alert-16: Dangers physiques__  
-    ---  
-    Cheveux, ongles, bijoux, fragments d’emballages ou de pansements : corps étrangers dans l’aliment = incident consommateur + risque légal.  
-    **Prévention :** tenue adaptée, pansements visibles et étanches, pas de bijoux.
+!!! tip "Équipement médical"
+    Disposer dans les locaux d'une trousse médicale d'urgence, munie d'un stock renouvelé de pansements, doigtiers, de solutions antiseptiques...
 
-</div>
+Les visites médicales doivent être réalisées en fonction de la réglementation en vigueur et l'ensemble des certificats d'aptitude doivent être archivés et consultables lors des contrôles.
 
----
+### Hygiène des mains
 
-## 2. Le lavage des mains — votre geste numéro 1
+#### Propreté des mains
 
-Le lavage des mains est le geste le plus efficace pour réduire la transmission des germes. **Objectif temps : environ 20–30 secondes** de frottement effectif (selon les recommandations internationales — visez ~30 s pour être sûr).
+Veiller particulièrement à la propreté des mains, ainsi que des avant-bras et des ongles. Les ongles doivent être les plus courts possibles et soignés, sans vernis à ongles ni faux-ongles. Le personnel doit se laver les mains de façon régulière et au moins :
 
-### Protocole recommandé (simple et pratique)
-| Étape | Action |  |
-| :---: | --- | :---: |
-| **1** | **Mouiller** les mains et les avant-bras à l'eau chaude. | :material-water-pump: |
-| **2** | **Savonner** avec une dose de savon bactéricide. | :material-hand-wash: |
-| **3** | **Frotter** : paumes, dos des mains, entre les doigts, sous les ongles. |:fontawesome-solid-hands-wash: |
-| **4** | **Brosser** les ongles si nécessaire avec une brosse dédiée. | :material-toothbrush: |
-| **5** | **Rincer** abondamment de haut en bas. | :material-hand-water: |
-| **6** | **Sécher** avec un essuie-mains à usage unique. | :material-paper-roll: |
-| **7** | **Fermer** le robinet avec l'essuie-mains pour ne pas se recontaminer. | :material-water-off: |
+- à la prise ou à la reprise du travail
+- après passage aux toilettes
+- après s'être mouillé, avoir touché, s'être touché le nez, les cheveux ou la tête
+- après une opération contaminante (manipulation des poubelles, des emballages et des œufs coquille, épluchage des légumes, etc.)
+- avant des opérations sensibles (hachage, etc.) ou avant manipulation de produits sensibles (mayonnaise, tartare, carpaccio, etc.)
 
-!!! success "Quand se laver les mains ?"
-    - Avant de commencer un service et après chaque pause.  
-    - Après contact avec des aliments crus (viande, poisson, œufs non cuits).  
-    - Après être allé aux toilettes, s'être mouché, éternué, ou avoir touché une poubelle.  
-    - Après nettoyage, manipulation d'ordures, ou toute action salissante.  
-    - Avant de manipuler des aliments prêts à consommer.
+<br>
 
----
+#### Exemple de méthode de nettoyage des mains
 
-## 3. Tenue et apparence — votre armure professionnelle
+1. **Mouillage préalable** des mains à l'eau tiède
+2. **Prise de savon liquide**
+3. **Savonnage efficace** (20 secondes)
+4. **Brossage** des ongles et des mains si nécessaire
+5. **Rinçage** à l'eau tiède
+6. **Essuyage** avec un système à usage unique
 
-<div class="grid cards" markdown>
+#### Dispositifs pour le lavage des mains
 
--   __:material-hanger: Tenue vestimentaire__  
-    ---  
-    - Tenue **propre et dédiée** (veste, pantalon, tablier, chaussures adaptées).  
-    - Changement **quotidien** ; tenue souillée = changement immédiat.  
-    - Cheveux **attachés** et couverts (charlotte, toque).
+!!! info "Équipements requis"
+    
+    - **Lave-mains** : à commande hygiénique et alimenté en eau potable tiède
+    - **Brosse à ongles** : à n'utiliser qu'en cas de mains et/ou ongles particulièrement sales
+    - **Savon liquide** : peut être bactéricidaire mais ce n'est pas une obligation
+    - **Système d'essuyage** : papier à usage unique, système de tissu auto-enrouleur
 
--   __:material-cancel: Interdits__  
-    ---  
-    - **Pas de bijoux** (bagues, bracelets, montres).  
-    - **Pas de vernis ni faux ongles.**  
-    - **Téléphone personnel** laissé au vestiaire.
+!!! warning "À éviter"
+    Les systèmes à air chaud sont déconseillés à cause des mouvements d'air qu'ils génèrent et du fait qu'ils sont peu efficaces.
 
--   __:material-medical-bag: Blessures & santé__  
-    ---  
-    - Coupure : nettoyer → désinfecter → **pansement étanche visible (bleu)** → gant/digitier si manipulation d’aliments.  
-    - Symptômes (vomissements, diarrhée, fièvre, toux importante) : **prévenir immédiatement** le responsable — ne pas prendre de poste si contagieux.
+Les dispositifs de lavage des mains doivent être en nombre suffisant, judicieusement placés (à la sortie des WC, à l'entrée de la cuisine, etc.), correctement entretenus et approvisionnés. Une poubelle doit être prévue pour jeter les papiers utilisés.
 
-</div>
+<br>
 
----
+### Tenue de travail adéquate et propre
 
-## 4. Fiches pratiques : actions rapides (à imprimer / coller)
+- Les cheveux doivent être courts ou attachés
+- Les bijoux (l'alliance ainsi que les bijoux portés en dessous de la tenue sont tolérés), montres et piercing ne doivent pas être portés en zone de fabrication
+- Le personnel doit disposer d'une tenue propre, complète et renouvelée, réservée aux périodes de travail
+- Les chaussures de travail doivent être également correctement entretenues
 
-**Carte mémo — lavage des mains (à coller près du poste)**
-- Mouiller → Savonner → Frotter 20–30 s → Rincer → Sécher → Fermer le robinet
+!!! note "Tenue en cuisine"
+    La tenue se compose : d'un pantalon, d'une veste avec éventuellement un tablier, d'une coiffe et de chaussures spécifiques
 
-**Checklist quotidienne rapide**
-- Tenue propre ✓ — mains propres ✓ — surfaces propres ✓ — température de conservation vérifiée ✓
+!!! note "Tenue en salle"
+    La tenue doit être propre, complète et renouvelée. En cas de port d'un tablier, celui-ci doit être renouvelé à chaque service
 
----
+Le port éventuel de gants ne doit pas dispenser l'utilisateur de se laver les mains avant de les enfiler. Les gants doivent être changés aussi souvent que nécessaire.
 
-## 5. Cas pratiques — que faire ? (scénarios rapides)
-- **Un client signale un symptôme après un service ?** Conserver les éléments, prévenir la direction, consulter le PMS et le logiciel de traçabilité si existant.  
-- **Panier de déchets renversé près d’une zone de préparation ?** Isoler la zone, nettoyer et désinfecter, relaver les mains avant de reprendre le travail.
+Le personnel doit disposer d'un vestiaire (placard ou local) lui permettant :
 
----
+- de revêtir sa tenue de travail
+- de déposer sa tenue de ville ainsi que ses effets personnels
 
-## 6. Testez vos connaissances
+Linge sale et le linge propre ne doivent pas être mélangés. De même, la tenue de ville et la tenue de travail doivent être rangées dans des espaces distincts.
 
-??? question "Q1 — À quelle fréquence doit-on changer sa tenue de travail ?"  
-    **Réponse :** Tous les jours ; changer immédiatement si la tenue est souillée pendant le service.
+<br>
 
-??? question "Q2 — Jean a une petite coupure au doigt. Quelle est la procédure ?"  
-    **Réponse :** Arrêter l’activité → nettoyer et désinfecter → appliquer pansement étanche visible (bleu) → mettre un gant/digitier → reprendre si sûr.
+### Surveillance
 
-??? question "Q3 — Pourquoi le téléphone est-il interdit en zone de production ?"  
-    **Réponse :** Parce qu’il est source de contamination microbiologique et de distraction, ce qui peut provoquer des erreurs ou accidents.
+La surveillance de l'hygiène du personnel se traduit notamment par :
 
----
+- un contrôle visuel de l'hygiène corporelle du personnel
+- un contrôle visuel du port de la tenue complète ainsi que de sa propreté
+- une surveillance médicale appropriée
 
-## Conclusion & engagement
-En appliquant ces règles simples et systématiques, vous protégez la santé des clients, évitez des incidents coûteux et contribuez à la réputation d’excellence de l’établissement.  
-**Votre signature sanitaire, c’est la régularité.**
+<br>
+
+### Cas des personnes extérieures
+
+Des personnes extérieures à l'entreprise (maintenance, livraison...) sont susceptibles de circuler dans les locaux. A cet effet doivent être prévues des dispositions spécifiques pour éviter tout risque de contamination de l'environnement de travail et de produits :
+
+- mise à disposition de tenue de protection
+- circuit de circulation
+- horaires d'intervention (intervention en-dehors des heures de fabrication par exemple)
+
+<br>
+
+### Comportement approprié
+
+Le personnel manipulant des denrées alimentaires doit avoir un comportement limitant les risques de contamination de celles-ci. Ainsi il est interdit de boire, manger (en dehors des dégustations) et fumer dans les locaux de fabrication.
+
+Il convient également de substituer, à chaque fois que la situation le permet, des ustensiles propres (pinces, cuillères...) à l'usage des mains. De même, il ne faut pas goûter les préparations avec le doigt mais utiliser, à cette fin, un ustensile propre.
+
+<br>
+
+## Formation du personnel
+
+### Objectif : Savoir et comprendre comment maîtriser les dangers de contamination, de multiplication ou de survie
+
+Faire suivre au personnel une formation adaptée et renouvelée au poste qu'il occupe et qui lui permet de comprendre pourquoi et comment les dangers apparaissent et s'accroissent et comment éliminer ou réduire ces dangers.
+
+Cette obligation de formation se traduit par le recours à :
+
+- la formation initiale (CAP, BP, Bac Pro...)
+- et à la formation continue :
+    - des formations en hygiène par des organismes reconnus
+    - une formation interne documentée
+    - des formations dédiées pour des pratiques spécifiques (cuisson sous-vide, fabrication de conserves...)
+
+!!! success "Documents à mettre à disposition"
+    
+    - Guide de Bonnes Pratiques d'Hygiène et d'application de l'HACCP
+    - Recettes ou documents techniques
+    - Livrets ou affiches d'information sur l'hygiène
+
+L'entreprise doit conserver toutes les attestations de stage suivi par le chef d'entreprise ou son personnel.
